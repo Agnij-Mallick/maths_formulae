@@ -11,8 +11,11 @@
 \usepackage{float}
 \usepackage{nameref}
 \usepackage[b5paper,total={170mm,257mm},left=20mm,right=20mm,top=15mm,bottom=15mm,includehead,includefoot]{geometry}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric,arrows}
+\usepackage{pgfplots}
+\usepackage{graphicx}
 %End of Packages Used----------------------------------------------
-
 \title{Mathematical Formula Sheet\\\begin{large}
 A Book of High School and Engineering Common Course Mathematical Formulae
 \end{large}}
@@ -635,7 +638,7 @@ Ax+By+C=0\text{ (General Form)}
 \paragraph{Angle Between Two Lines\newline}
 For two lines with slopes $m_1, m_2$, the angle between them, $\theta$:
 \begin{equation}
-\theta=\arctan(\dfrac{m_1-m_2}{1+m_1m_2})
+\theta=\arctan\left(\dfrac{m_1-m_2}{1+m_1m_2}\right)
 \end{equation}
 
 \paragraph{Distance of a Point from a Line\newline}
@@ -2195,5 +2198,66 @@ If the Laplace Transform of $f(t)$ is $F(s)$\footnote{Used in initial value prob
 \end{align}
 
 %End of Chapter---------------------------------------------------------------------------------
+
+\part{Operations Research}
+\chapter{Linear Programming Problems}
+\section{Basic Feasible Solution}
+The standard LPP problem has an objective function and conditions.
+\begin{center}
+\begin{align*}
+Z = a_1 x_1 + a_2 x_2 + \cdots + a_n x_n\\
+\text{Subject to:}\\
+a_{11} x_{1} + a_{12} x_{2} + \cdots + a_{1n}x_n \leq b_1\\
+a_{21} x_{1} + a_{22} x_{2} + \cdots + a_{2n}x_n \leq b_2\\
+\vdots\\
+a_{m1} x_{1} + a_{m2} x_{2} + \cdots + a_{mn}x_n \leq b_m
+\end{align*}
+\end{center}
+For a system with $n$ variables and $m$ conditions, the number of basic solutions are: ${n\choose k}$.
+For any $n$ - $m$ system there are $n-m$ non-basic variables (NBV) and $m$ basic variables (BV).\\
+For the above system, the basic solutions are obtained by:\\
+\begin{table}[ht]
+\centering
+\begin{tabular}{|p{0.35\linewidth} | p{0.35\linewidth}| p{0.3\linewidth}|}
+\hline
+NBV & BV & BFS\\
+\hline
+$x_1,x_2,\cdots,x_{n-m} = 0$ & $x_{n-m+1} = c_1, \cdots , x_n = c_n$ & If $x_{n-m+1, \cdots , x_n,} \geq 0$ then it is a basic feasible solution.\\
+\vdots & \vdots & \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Adjacent Basic Feasible Solutions}
+If two adjacent BFS share $m-1$ BV then they are called adjacent varibales.\\
+The optimal solution is always a extreme point. Thus, graphically:
+
+\tikzstyle{rect}=[draw, rectangle, fill=white, text width = 3 cm, text centered, minimum height = 1 cm]
+\tikzstyle{elli}=[draw, ellipse, fill=white, text width = 3 cm, text centered, minimum height = 1 cm]
+\tikzstyle{circ}=[draw, circle, fill=white, text width = 3 cm, text centered, minimum height = 1 cm]
+\tikzstyle{diam}=[draw, diamond, fill=white, text width = 2 cm, text centered]
+\tikzstyle{line}=[draw, -latex']
+\begin{figure}[h]
+\begin{center}
+\begin{tikzpicture}[node distance = 2 cm, auto]
+\node [rect, rounded corners](step1){Start};
+\node [rect, below of =step1](step2){Plot Feasible Region};
+\node [rect, below of =step2](step3){Find BFS and Z-Value};
+\node [rect, below of =step3](step4){Move to Adjacent BFS};
+\node [diam, below of =step4, node distance = 3 cm](step5){Is Z Value Higher?};
+\node [rect, rounded corners, below of =step5, node distance= 3cm](step6){End};
+\node [rect, right of =step5, node distance= 5cm](step7){Repeat};
+\path [line] (step1)--(step2);
+\path [line] (step2)--(step3);
+\path [line] (step3)--(step4);
+\path [line] (step4)--(step5);
+\path [line] (step5)--node[right]{No}(step6);
+\path [line] (step5)--node[above]{Yes}(step7);
+\path [line] (step7)|-(step4);
+\end{tikzpicture}
+\end{center}
+\end{figure}
+
+\section{Simplex Method}
 
 \end{document}

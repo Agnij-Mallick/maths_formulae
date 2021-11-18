@@ -227,3 +227,8 @@
 \contentsline {section}{\numberline {36.2}Important Relations}{88}{section.36.2}%
 \contentsline {section}{\numberline {36.3}Convolution}{88}{section.36.3}%
 \contentsline {section}{\numberline {36.4}Laplace Transforms of Differentials}{88}{section.36.4}%
+\contentsline {part}{VI\hspace {1em}Operations Research}{89}{part.6}%
+\contentsline {chapter}{\numberline {37}Linear Programming Problems}{90}{chapter.37}%
+\contentsline {section}{\numberline {37.1}Basic Feasible Solution}{90}{section.37.1}%
+\contentsline {subsection}{\numberline {37.1.1}Adjacent Basic Feasible Solutions}{91}{subsection.37.1.1}%
+\contentsline {section}{\numberline {37.2}Simplex Method}{91}{section.37.2}%
