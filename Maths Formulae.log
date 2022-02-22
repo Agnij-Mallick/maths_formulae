@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.23)  22 FEB 2022 21:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.23)  22 FEB 2022 21:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1709,10 +1709,10 @@ Package rerunfilecheck Info: File `"Maths Formulae".out' has not changed.
 (rerunfilecheck)             Checksum: AD3F71F61D3480DA2813E0E349BDD693;41299.
  ) 
 Here is how much of TeX's memory you used:
- 33333 strings out of 478353
- 774479 string characters out of 5854635
+ 33334 strings out of 478353
+ 774496 string characters out of 5854635
  1193589 words of memory out of 5000000
- 49949 multiletter control sequences out of 15000+600000
+ 49950 multiletter control sequences out of 15000+600000
  416297 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,21n,104p,733b,2167s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1738,7 +1738,7 @@ r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/cm-super/sfrm1200.pfb>
-Output written on "Maths Formulae.pdf" (110 pages, 531630 bytes).
+Output written on "Maths Formulae.pdf" (110 pages, 531612 bytes).
 PDF statistics:
  2981 PDF objects out of 2984 (max. 8388607)
  2791 compressed objects within 28 object streams
