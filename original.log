@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.23)  22 FEB 2022 21:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.23)  14 MAR 2022 17:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"Maths Formulae.tex"
-(./Maths Formulae.tex
+**original.tex
+(./original.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2021-11-22>
 (/usr/share/texmf-dist/tex/latex/base/book.cls
@@ -698,8 +698,8 @@ File: l3backend-pdftex.def 2021-12-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count313
 \l__pdf_internal_box=\box66
 )
-(./Maths Formulae.aux)
-\openout1 = `"Maths Formulae.aux"'.
+(./original.aux)
+\openout1 = `original.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
@@ -719,8 +719,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
-
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count314
 \scratchdimen=\dimen285
@@ -746,10 +745,9 @@ Package hyperref Info: Link coloring ON on input line 37.
 LaTeX Info: Redefining \ref on input line 37.
 LaTeX Info: Redefining \pageref on input line 37.
 LaTeX Info: Redefining \nameref on input line 37.
-
-(./Maths Formulae.out) (./Maths Formulae.out)
+ (./original.out) (./original.out)
 \@outlinefile=\write4
-\openout4 = `"Maths Formulae.out"'.
+\openout4 = `original.out'.
 
 LaTeX Info: Redefining \celsius on input line 37.
 Package gensymb Info: Faking symbols for \degree and \celsius on input line 37.
@@ -816,14 +814,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Maths Formulae.toc [1
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./original.toc [1
 
 ] [2] [3] [4] [5] [6])
 \tf@toc=\write5
-\openout5 = `"Maths Formulae.toc"'.
+\openout5 = `original.toc'.
 
-
-[7] [1
+ [7]
+[1
 
 ]
 Chapter 1.
@@ -1704,18 +1702,18 @@ Overfull \hbox (36.00587pt too wide) in paragraph at lines 2471--2479
 
 [101
 
-] [102] (./Maths Formulae.aux)
-Package rerunfilecheck Info: File `"Maths Formulae".out' has not changed.
+] [102] (./original.aux)
+Package rerunfilecheck Info: File `original.out' has not changed.
 (rerunfilecheck)             Checksum: AD3F71F61D3480DA2813E0E349BDD693;41299.
  ) 
 Here is how much of TeX's memory you used:
- 33334 strings out of 478353
- 774496 string characters out of 5854635
- 1193589 words of memory out of 5000000
- 49950 multiletter control sequences out of 15000+600000
+ 33331 strings out of 478353
+ 774272 string characters out of 5854635
+ 1193581 words of memory out of 5000000
+ 49947 multiletter control sequences out of 15000+600000
  416297 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,21n,104p,733b,2167s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 100i,21n,104p,725b,2167s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -1738,7 +1736,7 @@ r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/cm-super/sfrm1200.pfb>
-Output written on "Maths Formulae.pdf" (110 pages, 531356 bytes).
+Output written on original.pdf (110 pages, 531356 bytes).
 PDF statistics:
  2981 PDF objects out of 2984 (max. 8388607)
  2791 compressed objects within 28 object streams

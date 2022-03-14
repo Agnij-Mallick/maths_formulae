@@ -1,0 +1,27 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+	\large{\chapter{Logarithm}}
+	\section{Basic Formulae}
+	For $a^x=b$:
+	\begin{align}
+		\log_a x\text{, for all }x\leq0\text{ is undefined}\\
+		\log_a b=x\text{, }bax\neq1\text{, }a\neq1\\
+		\log_b a^m=m\log_b a\text{, for } a^m=b\\
+		a^{\log_a x}=x\\
+		a^{\log_b c}=c^{\log_b a}\\
+		\frac{1}{\log_a b}=\log_b a\\
+		\log_c (ab)=\log_c a+\log_c b\\
+		\log_c (\frac{a}{b})=\log_c a-\log_c b\\
+		\lvert \log_a x \rvert=\begin{cases}
+			-\log_a x, \text{ if } \, 0 < x < 1\\
+			\log_a x, \text{ if } \, 1\leq x < \infty \\
+		\end{cases}
+	\end{align}
+	
+	\section{Series}
+	\begin{align}
+		e^x=1+\frac{x}{1!}+\frac{x^2}{2!}+\frac{x^3}{3!}+...\infty=\lim_{n\to\infty}\sum_{i=0}^{n}\frac{x^i}{i!}\\
+		\log(1+x)=x-\frac{x^2}{2}+\frac{x^3}{3}-\frac{x^4}{4}+...\infty=\lim_{n\to\infty}\sum_{i=1}^{n}(-1)^{(i-1)}\frac{x^i}{i}
+	\end{align}
+\end{document}
