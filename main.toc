@@ -1,0 +1,15 @@
+\babel@toc {english}{}\relax 
+\contentsline {part}{I\hspace {1em}Algebra}{2}{}%
+\contentsline {chapter}{\numberline {1}Logarithm}{3}{}%
+\contentsline {section}{\numberline {1.1}Basic Formulae}{3}{}%
+\contentsline {section}{\numberline {1.2}Series}{3}{}%
+\contentsline {chapter}{\numberline {2}Complex Numbers}{4}{}%
+\contentsline {section}{\numberline {2.1}Basic Formulae}{4}{}%
+\contentsline {section}{\numberline {2.2}Arithmetic Operation of Complex Number}{4}{}%
+\contentsline {section}{\numberline {2.3}Euler's Formula}{4}{}%
+\contentsline {section}{\numberline {2.4}Trigonometric Ratios in Complex Form}{5}{}%
+\contentsline {section}{\numberline {2.5}De Moivre's Formula}{5}{}%
+\contentsline {paragraph}{Proof}{5}{}%
+\contentsline {section}{\numberline {2.6}Application of Euler's and De Moivre's Formula}{5}{}%
+\contentsline {section}{\numberline {2.7}Roots of Unity}{5}{}%
+\contentsline {section}{\numberline {2.8}Important Relations of Complex Numbers}{5}{}%

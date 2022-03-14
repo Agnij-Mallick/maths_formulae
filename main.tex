@@ -1,33 +1,33 @@
 \documentclass[openany, oneside]{book}
 %Packages Used-----------------------------------------------------
-\usepackage{color}
-\usepackage{hyperref}
 \usepackage{amsmath}
 \usepackage{amsfonts}
-\usepackage{amssymb}
-\usepackage{tabto}
-\usepackage[utf8]{inputenc}
-\usepackage{gensymb}
-\usepackage{float}
-\usepackage{nameref}
-\usepackage[b5paper,total={170mm,257mm},left=20mm,right=20mm,top=15mm,bottom=15mm,includehead,includefoot]{geometry}
-\usepackage{tikz}
-\usetikzlibrary{shapes.geometric,arrows}
 \usepackage{pgfplots}
-\usepackage{graphicx}
 \usepackage{subfiles}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage[b5paper,total={170mm,257mm},left=15mm,right=15mm,top=15mm,bottom=10mm,includehead,includefoot]{geometry}
+\usepackage{titlesec}
 %End of Packages Used----------------------------------------------
-\title{Mathematical Formulae\\\begin{large}
-		A Book of High School and Engineering Common Core Mathematical Formulae
-\end{large}}
+\title{Mathematical Formulae\\A Book of High School and Engineering Common Core Mathematical Formulae}
 \date{December, 2020}
 \author{Agnij Mallick}
 
-\begin{document}	
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\nouppercase\leftmark}
+\rhead{Mathmatical Formulae}
+\cfoot{\thepage}
+
+\titleformat{\part}[frame]{\Huge}{Part \thepart}{15pt}{\centering}
+\titleformat{\chapter}[frame]{\Large}{Chapter \thechapter}{15pt}{\centering}
+
+\begin{document}
 	\maketitle
 	\tableofcontents
 
 	\part{Algebra}
-	\subfile{logarithm}
-	
+	\subfile{logarithm}	
+	\subfile{complexnum}
 \end{document}
