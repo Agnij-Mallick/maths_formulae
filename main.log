@@ -1,25 +1,25 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.23)  18 APR 2022 21:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.18)  2 MAY 2022 11:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2021-11-22>
+L3 programming layer <2022-02-24>
 (/usr/share/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/bk10.clo
 File: bk10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count183
-\c@chapter=\count184
-\c@section=\count185
-\c@subsection=\count186
-\c@subsubsection=\count187
-\c@paragraph=\count188
-\c@subparagraph=\count189
-\c@figure=\count190
-\c@table=\count191
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
@@ -44,13 +44,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count192
+\inf@bad=\count194
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count193
-\leftroot@=\count194
+\uproot@=\count195
+\leftroot@=\count196
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count195
-\DOTSCASE@=\count196
+\classnum@=\count197
+\DOTSCASE@=\count198
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -59,15 +59,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen141
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count197
-\c@MaxMatrixCols=\count198
+\macc@depth=\count199
+\c@MaxMatrixCols=\count266
 \dotsspace@=\muskip16
-\c@parentequation=\count199
-\dspbrk@lvl=\count266
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
 \tag@help=\toks17
-\row@=\count267
-\column@=\count268
-\maxfields@=\count269
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
 \andhelp@=\toks18
 \eqnshift@=\dimen142
 \alignsep@=\dimen143
@@ -160,14 +160,14 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@yd=\dimen161
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count270
-\c@pgf@countb=\count271
-\c@pgf@countc=\count272
-\c@pgf@countd=\count273
+\c@pgf@counta=\count272
+\c@pgf@countb=\count273
+\c@pgf@countc=\count274
+\c@pgf@countd=\count275
 \t@pgf@toka=\toks26
 \t@pgf@tokb=\toks27
 \t@pgf@tokc=\toks28
-\pgf@sys@id@count=\count274
+\pgf@sys@id@count=\count276
 
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
@@ -182,8 +182,8 @@ File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count275
-\pgfsyssoftpath@bigbuffer@items=\count276
+\pgfsyssoftpath@smallbuffer@items=\count277
+\pgfsyssoftpath@bigbuffer@items=\count278
 )
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -213,7 +213,7 @@ Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen162
-\pgfmath@count=\count277
+\pgfmath@count=\count279
 \pgfmath@box=\box53
 \pgfmath@toks=\toks29
 \pgfmath@stack@operand=\toks30
@@ -230,7 +230,7 @@ x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
 .code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count278
+\c@pgfmathroundto@lastzeros=\count280
 )) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -263,7 +263,7 @@ File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box54
 \pgf@hbox=\box55
 \pgf@layerbox@main=\box56
-\pgf@picture@serial@count=\count279
+\pgf@picture@serial@count=\count281
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -291,8 +291,8 @@ File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen186
-\pgf@sys@shading@range@num=\count280
-\pgf@shadingcount=\count281
+\pgf@sys@shading@range@num=\count282
+\pgf@shadingcount=\count283
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -347,7 +347,7 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
 x
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count282
+\pgf@plot@mark@count=\count284
 \pgfplotmarksize=\dimen191
 )
 \tikz@lastx=\dimen192
@@ -362,17 +362,17 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@figbox@bg=\box60
 \tikz@tempbox=\box61
 \tikz@tempbox@bg=\box62
-\tikztreelevel=\count283
-\tikznumberofchildren=\count284
-\tikznumberofcurrentchild=\count285
-\tikz@fig@count=\count286
+\tikztreelevel=\count285
+\tikznumberofchildren=\count286
+\tikznumberofcurrentchild=\count287
+\tikz@fig@count=\count288
  (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count287
-\pgfmatrixcurrentcolumn=\count288
-\pgf@matrix@numberofcolumns=\count289
+\pgfmatrixcurrentrow=\count289
+\pgfmatrixcurrentcolumn=\count290
+\pgf@matrix@numberofcolumns=\count291
 )
-\tikz@expandcount=\count290
+\tikz@expandcount=\count292
 
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 topaths.code.tex
@@ -384,8 +384,8 @@ File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \t@pgfplots@tokb=\toks35
 \t@pgfplots@tokc=\toks36
 \pgfplots@tmpa=\dimen256
-\c@pgfplots@coordindex=\count291
-\c@pgfplots@scanlineindex=\count292
+\c@pgfplots@coordindex=\count293
+\c@pgfplots@scanlineindex=\count294
 
 (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex))
 (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex)
@@ -399,13 +399,13 @@ oader.code.tex
 ext.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.te
 x
-\c@pgfplotsarray@tmp=\count293
+\c@pgfplotsarray@tmp=\count295
 )
 (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.t
 ex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.t
 ex
-\c@pgfplotstable@counta=\count294
+\c@pgfplotstable@counta=\count296
 \t@pgfplotstable@a=\toks37
 )
 (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.te
@@ -414,7 +414,7 @@ x) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
 (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading
 .code.tex
-\c@pgfplotslibrarysurf@no=\count295
+\c@pgfplotslibrarysurf@no=\count297
 
 (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.
 pgfsys-pdftex.def)))
@@ -438,7 +438,7 @@ decorations.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen259
 \pgfdecoratedinputsegmentremainingdistance=\dimen260
 \pgf@decorate@distancetomove=\dimen261
-\pgf@decorate@repeatstate=\count296
+\pgf@decorate@repeatstate=\count298
 \pgfdecorationsegmentamplitude=\dimen262
 \pgfdecorationsegmentlength=\dimen263
 )
@@ -454,7 +454,7 @@ decorations.pathreplacing.code.tex
 ons.pathreplacing.code.tex))
 (/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua
 .code.tex)
-\pgfplots@numplots=\count297
+\pgfplots@numplots=\count299
 \pgfplots@xmin@reg=\dimen264
 \pgfplots@xmax@reg=\dimen265
 \pgfplots@ymin@reg=\dimen266
@@ -476,13 +476,13 @@ Package: import 2020/04/01  v 6.2
 ))
 (/usr/share/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2022/02/26 3.73 The Babel package
-\babel@savecnt=\count298
+\babel@savecnt=\count300
 \U@D=\dimen270
 \l@unhyphenated=\language87
 
 (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
-\bbl@dirlevel=\count299
+\bbl@dirlevel=\count301
 
 (/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
@@ -520,9 +520,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count300
-\Gm@cntv=\count301
-\c@Gm@tempcnt=\count302
+\Gm@cnth=\count302
+\Gm@cntv=\count303
+\c@Gm@tempcnt=\count304
 \Gm@bindingoffset=\dimen271
 \Gm@wd@mp=\dimen272
 \Gm@odd@mp=\dimen273
@@ -555,7 +555,7 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 )
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count303
+\l__color_backend_stack_int=\count305
 \l__pdf_internal_box=\box65
 ) (./main.aux)
 \openout1 = `main.aux'.
@@ -577,16 +577,16 @@ LaTeX Font Info:    ... okay on input line 26.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count304
+\scratchcounter=\count306
 \scratchdimen=\dimen284
 \scratchbox=\box66
-\nofMPsegments=\count305
-\nofMParguments=\count306
+\nofMPsegments=\count307
+\nofMParguments=\count308
 \everyMPshowfont=\toks42
-\MPscratchCnt=\count307
+\MPscratchCnt=\count309
 \MPscratchDim=\dimen285
-\MPnumerator=\count308
-\makeMPintoPDFobject=\count309
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
 \everyMPtoPDFconversion=\toks43
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -650,51 +650,87 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc [1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+ [][]  
+ []
+
+)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [1
-
-] [2
+ [2] [3
 
 ] (./logarithm.tex
 Chapter 1.
-) (./complexnum.tex [3
+) (./complexnum.tex [4
 
 ]
 Chapter 2.
-[4
+[5
 
-]) (./progression.tex [5]
+]) (./progression.tex [6]
 Chapter 3.
-[6
+[7
 
-] [7]) [8] (./main.aux) ) 
+] [8]) (./test_of_convergence.tex [9]
+Chapter 4.
+[10
+
+] [11]) (./determinants.tex [12]
+Chapter 5.
+[13
+
+] [14]) (./matrices.tex [15]
+Chapter 6.
+[16
+
+]) (./binomial_theorem.tex [17]
+Chapter 7.
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 32.
+
+[18
+
+]) (./boolean_algebra.tex [19]
+Chapter 8.
+) (./remainder_theorem.tex [20
+
+]
+Chapter 9.
+[21
+
+] [22]) [23] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 24663 strings out of 478353
- 627933 string characters out of 5854635
- 1038913 words of memory out of 5000000
- 42390 multiletter control sequences out of 15000+600000
- 411592 words of font info for 59 fonts, out of 8000000 for 9000
+ 24704 strings out of 478276
+ 628772 string characters out of 5853013
+ 1038322 words of memory out of 5000000
+ 42492 multiletter control sequences out of 15000+600000
+ 477756 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,103p,721b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
-sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
-fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/sha
-re/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (9 pages, 177798 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-s
+uper-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (24 pages, 224084 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
+ 161 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

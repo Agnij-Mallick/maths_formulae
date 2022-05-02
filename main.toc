@@ -1,29 +1,66 @@
 \babel@toc {english}{}\relax 
-\contentsline {part}{I\hspace {1em}Algebra}{2}{}%
-\contentsline {chapter}{\numberline {1}Logarithm}{3}{}%
-\contentsline {section}{\numberline {1.1}Basic Formulae}{3}{}%
-\contentsline {section}{\numberline {1.2}Series}{3}{}%
-\contentsline {chapter}{\numberline {2}Complex Numbers}{4}{}%
-\contentsline {section}{\numberline {2.1}Basic Formulae}{4}{}%
-\contentsline {section}{\numberline {2.2}Arithmetic Operation of Complex Number}{4}{}%
-\contentsline {section}{\numberline {2.3}Euler's Formula}{4}{}%
-\contentsline {section}{\numberline {2.4}Trigonometric Ratios in Complex Form}{5}{}%
-\contentsline {section}{\numberline {2.5}De Moivre's Formula}{5}{}%
-\contentsline {paragraph}{Proof}{5}{}%
-\contentsline {section}{\numberline {2.6}Application of Euler's and De Moivre's Formula}{5}{}%
-\contentsline {section}{\numberline {2.7}Roots of Unity}{5}{}%
-\contentsline {section}{\numberline {2.8}Important Relations of Complex Numbers}{5}{}%
-\contentsline {chapter}{\numberline {3}Progression}{6}{}%
-\contentsline {section}{\numberline {3.1}Arithmetic Progression (A.P.)}{6}{}%
-\contentsline {subsection}{\numberline {3.1.1}Sum of A.P. Series}{6}{}%
-\contentsline {subsection}{\numberline {3.1.2}Important Relation}{6}{}%
-\contentsline {section}{\numberline {3.2}Geometric Progression (G.P.)}{6}{}%
-\contentsline {subsection}{\numberline {3.2.1}The Value of 'r'}{6}{}%
-\contentsline {subsection}{\numberline {3.2.2}Sum of a G.P. Series}{7}{}%
-\contentsline {subsection}{\numberline {3.2.3}Important relations}{7}{}%
-\contentsline {section}{\numberline {3.3}Harmonic Progression (H.P.)}{7}{}%
-\contentsline {section}{\numberline {3.4}\large {Arithmetico-Geometric Progression (A.G.P.)}}{7}{}%
-\contentsline {subsection}{\numberline {3.4.1}Sum of A.G.P.:}{7}{}%
-\contentsline {section}{\numberline {3.5}Special Series}{7}{}%
-\contentsline {subsection}{\numberline {3.5.1}Riemann Zeta Function}{8}{}%
-\contentsline {subsection}{\numberline {3.5.2}Riemann's Infinite Series as an Integration}{8}{}%
+\contentsline {part}{I\hspace {1em}Algebra}{3}{}%
+\contentsline {chapter}{\numberline {1}Logarithm}{4}{}%
+\contentsline {section}{\numberline {1.1}Basic Formulae}{4}{}%
+\contentsline {section}{\numberline {1.2}Series}{4}{}%
+\contentsline {chapter}{\numberline {2}Complex Numbers}{5}{}%
+\contentsline {section}{\numberline {2.1}Basic Formulae}{5}{}%
+\contentsline {section}{\numberline {2.2}Arithmetic Operation of Complex Number}{5}{}%
+\contentsline {section}{\numberline {2.3}Euler's Formula}{5}{}%
+\contentsline {section}{\numberline {2.4}Trigonometric Ratios in Complex Form}{6}{}%
+\contentsline {section}{\numberline {2.5}De Moivre's Formula}{6}{}%
+\contentsline {paragraph}{Proof}{6}{}%
+\contentsline {section}{\numberline {2.6}Application of Euler's and De Moivre's Formula}{6}{}%
+\contentsline {section}{\numberline {2.7}Roots of Unity}{6}{}%
+\contentsline {section}{\numberline {2.8}Important Relations of Complex Numbers}{6}{}%
+\contentsline {chapter}{\numberline {3}Progression}{7}{}%
+\contentsline {section}{\numberline {3.1}Arithmetic Progression (A.P.)}{7}{}%
+\contentsline {subsection}{\numberline {3.1.1}Sum of A.P. Series}{7}{}%
+\contentsline {subsection}{\numberline {3.1.2}Important Relation}{7}{}%
+\contentsline {section}{\numberline {3.2}Geometric Progression (G.P.)}{7}{}%
+\contentsline {subsection}{\numberline {3.2.1}The Value of 'r'}{7}{}%
+\contentsline {subsection}{\numberline {3.2.2}Sum of a G.P. Series}{8}{}%
+\contentsline {subsection}{\numberline {3.2.3}Important relations}{8}{}%
+\contentsline {section}{\numberline {3.3}Harmonic Progression (H.P.)}{8}{}%
+\contentsline {section}{\numberline {3.4}\large {Arithmetico-Geometric Progression (A.G.P.)}}{8}{}%
+\contentsline {subsection}{\numberline {3.4.1}Sum of A.G.P.:}{8}{}%
+\contentsline {section}{\numberline {3.5}Special Series}{8}{}%
+\contentsline {subsection}{\numberline {3.5.1}Riemann Zeta Function}{9}{}%
+\contentsline {subsection}{\numberline {3.5.2}Riemann's Infinite Series as an Integration}{9}{}%
+\contentsline {chapter}{\numberline {4}Test of Convergence of Infinite Series}{10}{}%
+\contentsline {section}{\numberline {4.1}Definition}{10}{}%
+\contentsline {section}{\numberline {4.2}Tests of Convergence}{10}{}%
+\contentsline {subsection}{\numberline {4.2.1}Comparison Test}{10}{}%
+\contentsline {subsection}{\numberline {4.2.2}Limit Form}{10}{}%
+\contentsline {subsection}{\numberline {4.2.3}Integral Test or Maclaurin-Cauchy Test}{10}{}%
+\contentsline {paragraph}{}{11}{}%
+\contentsline {subsection}{\numberline {4.2.4}Ratio Test}{11}{}%
+\contentsline {subsection}{\numberline {4.2.5}D'Alembert's Ratio Test}{11}{}%
+\contentsline {subsection}{\numberline {4.2.6}Rabbe's Test}{11}{}%
+\contentsline {subsection}{\numberline {4.2.7}Cauchy's Root Test}{11}{}%
+\contentsline {subsection}{\numberline {4.2.8}Logarithmic Test}{12}{}%
+\contentsline {chapter}{\numberline {5}Determinants}{13}{}%
+\contentsline {section}{\numberline {5.1}Definition}{13}{}%
+\contentsline {subsection}{\numberline {5.1.1}Minor and Cofactor}{13}{}%
+\contentsline {subsubsection}{Minor}{13}{}%
+\contentsline {subsubsection}{Cofactor}{13}{}%
+\contentsline {section}{\numberline {5.2}Properties of Determinants}{13}{}%
+\contentsline {section}{\numberline {5.3}Cramer's Rule}{14}{}%
+\contentsline {subsection}{\numberline {5.3.1}Consistency Test}{15}{}%
+\contentsline {chapter}{\numberline {6}Matrices}{16}{}%
+\contentsline {section}{\numberline {6.1}Sum of Two Matrices}{16}{}%
+\contentsline {section}{\numberline {6.2}Multiplication of Two Matrices\newline }{16}{}%
+\contentsline {subsection}{\numberline {6.2.1}Multiplicative Properties}{16}{}%
+\contentsline {section}{\numberline {6.3}Adjoint of a Matrix}{17}{}%
+\contentsline {section}{\numberline {6.4}Martin's Rule}{17}{}%
+\contentsline {chapter}{\numberline {7}Binomial Theorem}{18}{}%
+\contentsline {section}{\numberline {7.1}Expansion of a binomial expression}{18}{}%
+\contentsline {section}{\numberline {7.2}Trinomial Expansion}{18}{}%
+\contentsline {section}{\numberline {7.3}Properties of Coefficients}{18}{}%
+\contentsline {section}{\numberline {7.4}Pascal's Rule}{19}{}%
+\contentsline {chapter}{\numberline {8}Boolean Algebra}{20}{}%
+\contentsline {chapter}{\numberline {9}Remainder Theorems}{21}{}%
+\contentsline {section}{\numberline {9.1}Remainder Theorem}{21}{}%
+\contentsline {section}{\numberline {9.2}Euler's Remainder Theorem}{21}{}%
+\contentsline {subsection}{\numberline {9.2.1}Euler's Totient Function}{21}{}%
+\contentsline {section}{\numberline {9.3}Wilson Theorem}{22}{}%
