@@ -1,0 +1,72 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+\chapter{Complex Numbers}
+	\section{Basic Formulae}
+	For $z=x+iy$,
+	\begin{align}
+		& \left| z \right| = \sqrt{x^2+y^2}\\
+		& \tan \theta = \frac{y}{x}\\
+		& \bar{z} = x-iy
+	\end{align}
+
+	\section{Arithmetic Operation of Complex Number}
+	For two complex numbers $z_1=x_1+iy_1$ and $z_2=x_2+iy_2$:
+	\begin{align}
+		& z_1 + z_2 = (x_1+x_2) + i(y_1+y_2)\\
+		& z_1 z_2 = (x_1x_2-y_1y_2) + i (x_1y_2+x_2y_1)\\
+		& \left| z_1z_2 \right|  = \left| z_1 \right| \cdot \left| z_2 \right|\\
+		& \dfrac{z_1}{z_2} = \dfrac{(x_1x_2+y_1y_2)+i(x_2y_1-x_1y_2)}{{a_2}^2+{b_2}^2}\\
+		& \left| \dfrac{z_1}{z_2} \right| =\dfrac{\left| z_1 \right|}{\left| z_2 \right|}
+	\end{align}
+	
+	\section{Euler's Formula}
+	\begin{align}
+		& z = re^{i\theta}, \text{ where} \\
+		& r = \left| z \right| \\
+		& e^{i\theta} = \cos \theta + i \sin \theta \\
+		& \theta = \arctan \left(\dfrac{y}{x}\right)
+	\end{align}
+	
+	\section{Trigonometric Ratios in Complex Form}
+	\begin{align}
+		& e^{i\theta}+e^{-i\theta}=2\cos\theta\\
+		\Rightarrow & \cos \theta=\dfrac{e^{i\theta}+e^{-i\theta}}{2}\\
+		& e^{i\theta}-e^{-i\theta}=2\sin\theta\\
+		\Rightarrow & \sin \theta=\dfrac{e^{i\theta}-e^{-i\theta}}{2}
+	\end{align}
+	
+	\section{De Moivre's Formula}
+	According to DeMoivre's Formula:
+	\begin{align}
+		(\cos\theta+i\sin\theta)^n=\cos (n\theta)+i\sin(n\theta)
+	\end{align}
+	\paragraph{Proof}
+	\begin{align*}
+		\cos \theta + i \sin \theta & = e^{i\theta}\\
+		\Rightarrow \left(\cos \theta + i \sin \theta \right)^n & = e^{n \left( i \theta \right)}\\
+		& = \cos (n\theta)+i\sin(n\theta)\\
+		& \text{Q.E.D.}
+	\end{align*}
+	
+	\section{Application of Euler's and De Moivre's Formula}
+	For $z_1= \left| r_1 \right| e^{i\theta_1}$ and $z_2= \left| r_2 \right| e^{i\theta_2}$
+	\begin{align}
+		z_1z_2= \left( r_1 r_2 \right)e^{i(\theta_1+\theta_2)}\\
+		\dfrac{z_1}{z_2}=\left( \dfrac{r_1}{r_2} \right) e^{i(\theta_1-\theta_2)}
+	\end{align}
+	
+	\section{Roots of Unity}
+	\begin{align}
+		\sqrt[n]{1}=e^{i\dfrac{2k\pi}{n}},\text{ where } k \in [0,n-1]
+	\end{align}
+	
+	\section{Important Relations of Complex Numbers}
+	\begin{align}
+		& \left| z_1 + z_2 \right| \leq \left| z_1 \right| + \left| z_2 \right|\\
+		& \left| z_1 - z_2 \right| \leq \left| z_1 \right| + \left| z_2 \right|\\
+		& \left| z_1 - z_2 \right| \geq \left| z_1 \right| - \left| z_2 \right|\\
+		& \left| z_1 + z_2 \right| \geq \left| \left| z_1 \right| - \left| z_2 \right| \right|\\
+		& \left| z_1 + z_2 \right|^2 = 2 \left( \left| z_1 \right|^2 + \left| z_2 \right|^2 \right)
+	\end{align}
+
+\end{document}

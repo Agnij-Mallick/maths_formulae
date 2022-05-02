@@ -1,0 +1,94 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+	\chapter{Test of Convergence of Infinite Series}
+	If $a_1,a_2,a_3,...,a_n$ is a sequence by $a_n$ and their sum of series is $S_n$, then the following apply.
+	\section{Definition}
+	If \begin{equation}\lim_{n\to\infty} S_n=l\nonumber\end{equation} where $l$ is a finite value, the series $S_n$ is said to converge. A non-convergent series is called a divergent series.
+	\section{Tests of Convergence}
+	\subsection{Comparison Test}
+	If $u_n$ and $v_n$ are two positive series, then:
+	\begin{enumerate}
+		\item \begin{enumerate}
+			\item $v_n$ converges
+			\item $u_n\leq v_n \forall n$
+			Then $u_n$ converges.
+	\end{enumerate}
+		\item \begin{enumerate}
+			\item $v_n$ diverges
+			\item $u_n\geq v_n \forall n$
+			Then $u_n$ diverges.
+		\end{enumerate}
+	\end{enumerate}
+	
+	\subsection{Limit Form}
+	If \begin{equation}\lim_{x\to\infty} \dfrac{u_n}{v_n} = l \nonumber\end{equation} where $l$ is a finite quantity $\neq0$, then $u_n$ and $v_n$ converge and diverge together.
+	
+	\subsection{Integral Test or Maclaurin-Cauchy Test}
+	For a series
+	\begin{equation}
+		\sum_{i=N}^{\infty} f(x)\text{, where } N \in \mathbb{Z}
+	\end{equation}
+	will only converge if the improper integral
+	\begin{equation}
+		\int_{N}^{\infty} f(x) dx
+	\end{equation}
+	is finite.
+	\paragraph{}
+	If the improper integral is finite, the upper and lower limit of the infinite series is given by:
+	\begin{equation}
+		\int_{N}^{\infty} f(x) dx \leq \sum_{i=N}^{\infty} f(x) \leq f(N)+\int_{N}^{\infty} f(x) dx
+	\end{equation}
+	\subsection{Ratio Test}
+	If, for two series $\sum u_n$ and $\sum v_n$:
+	
+	\begin{enumerate}
+		\item \begin{enumerate}
+			\item $\sum v_n$ converges
+			\item from or after a particular term $\dfrac{u_n}{u_{n+1}}>\dfrac{v_n}{v_{n+1}}$, then $u_n$ converges.
+			\end{enumerate}
+		\item \begin{enumerate}
+			\item $\sum v_n$ diverges
+			\item from or after a particular term $\dfrac{u_n}{u_{n+1}}<\dfrac{v_n}{v_{n+1}}$, then $u_n$ diverges.
+		\end{enumerate}
+	\end{enumerate}
+	
+	\subsection{D'Alembert's Ratio Test}
+	\begin{equation}
+		\lim_{n\to\infty} \dfrac{u_n}{u_{n+1}}=\lambda
+	\end{equation}
+	\begin{itemize}
+		\item series converges if $\lambda<1$
+		\item series diverges if $\lambda>1$
+		\item fails if $\lambda=1$
+	\end{itemize}
+	
+	\subsection{Rabbe's Test}
+	\begin{equation}
+		\lim_{n\to\infty} n\left[ \dfrac{u_n}{u_{n+1}} - 1 \right] = \kappa
+	\end{equation}
+	\begin{itemize}
+		\item series converges if $\kappa<1$
+		\item series diverges if $\kappa>1$
+		\item fails if $\kappa=1$
+	\end{itemize}
+	
+	\subsection{Cauchy's Root Test}
+	\begin{equation}
+		\lim_{n\to\infty} \lvert u_n \rvert=\lambda
+	\end{equation}
+	\begin{itemize}
+		\item series converges for $\lambda<1$
+		\item series diverges for $\lambda>1$
+		\item test fails for $\lambda=1$
+	\end{itemize}
+	
+	\subsection{Logarithmic Test}
+	\begin{equation}
+		\lim_{n\to\infty} n \log \left( \dfrac{u_n}{u_{n+1}} \right) = \kappa
+	\end{equation}
+	\begin{itemize}
+		\item series converges for $\kappa<1$
+		\item series diverges for $\kappa>1$
+		\item test fails for $\kappa=1$
+	\end{itemize}
+\end{document}

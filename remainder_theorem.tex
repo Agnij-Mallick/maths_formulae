@@ -1,0 +1,76 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+	\chapter{Remainder Theorems}
+	\section{Remainder Theorem}
+	If a function $f(x)$ is divided by a binomial $x-a$, then the remainder is provided by $f(a)$.
+	\begin{align}
+		\dfrac{f(x)}{x-a} \equiv f(a) \mod \left(x-a\right)
+	\end{align}
+	
+	\subsection*{Worked Example}
+	Find the remainder when $f(x) = x^3 - 4 x^2 - 7 x + 10$ is divided by $(x-2)$.\\
+	The remainder:
+	\begin{align*}
+		R = \left(x^3 - 4 x^2 - 7 x + 10\right)\mod\left(x-2\right)
+	\end{align*}
+	is given by:
+	\begin{align*}
+		R = f(2) & = (2)^3 - 4 (2)^2 - 7(2) + 10\\ & = 8 - 16 - 14 + 10 = -12
+	\end{align*}
+	
+	\section{Euler's Remainder Theorem}
+	According to Euler's Remainder Theorem, if $x$ and $n$ are two co-prime numbers:
+	\begin{align}
+		x^{\varphi (n)} \equiv 1 \mod n, x,n \in \mathbb{Z}^+
+	\end{align}
+	where, $\varphi(n)$ is Euler's totient function.
+	
+	\subsection{Euler's Totient Function}
+	For a number defined as:
+	\begin{align}
+		n=\prod_{i=1}^r {a_r}^{b_r}
+	\end{align}
+	then Euler's totient function is defined as:
+	\begin{align}
+		\varphi(n) & = n \cdot \left[\left( 1 - \dfrac{1}{a_1} \right) \cdot \left( 1 - \dfrac{1}{a_2} \right) \cdot \left( 1 - \dfrac{1}{a_3} \right) \cdots \right] \nonumber \\
+		& = n \prod_{i=1}^r \left(1 - \dfrac{1}{a_r} \right)
+	\end{align}
+	\subsection*{Worked Example}
+	Find the remainder if $3^{76}$ is divided by $35$.\par
+	Since:
+	\begin{align*}
+		35 = 5^1 \times 7^1
+	\end{align*}
+	Hence the totient quotient of $35$ is:
+	\begin{align*}
+		\varphi(35) & = 35 \cdot \left(1 - \dfrac{1}{5}\right)\cdot\left(1-\dfrac{1}{7}\right) \\ & = 35 \times \dfrac{4}{5} \times \dfrac{6}{7} \\ & = 24
+	\end{align*}
+	Hence Euler's Theorem yields:
+	\begin{align*}
+		3^{24} & \equiv 1 \mod 35 \\
+		3^{76} & \equiv 3^{24 \times 3 + 4}\\
+		& \equiv \left(3^{24}\right)^3 \times 3^4 \mod 35\\
+		& \equiv \left(1\right)^3 \times 3^4 \mod 35\\
+		& \equiv 81 \mod 35\\
+		& \equiv 11 \mod 35
+	\end{align*}
+	The remainder when $3^{76}$ is divided by $35$ is $11$.
+	
+	\section{Wilson Theorem}
+	According to Wilson Theorem:
+	\begin{align}
+		\left( n - 1 \right)! \equiv -1 \mod n
+	\end{align}
+	\subsection*{Worked Example}
+	Find the remainder when $28!$ is divided by $31$.\\
+	By Wilson's Theorem:
+	\begin{align*}
+		& 30! & \equiv -1 \mod 31 \\
+		\Rightarrow & 30 \cdot 29 \cdot 28! & \equiv -1 \mod 31 \\
+		\text{Let } & 28! \mod 31 & = x \\
+		\Rightarrow & (-1) \cdot (-2) \cdot x & \equiv 30 \mod 31 \\
+		\Rightarrow & 2x & = 30 \\
+		\Rightarrow & x & = 15
+	\end{align*}
+	The remainder when $28!$ is divided by $31$ is $15$.
+\end{document}

@@ -1,0 +1,82 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+	\chapter{Determinants}
+	\section{Definition}
+	For a determinant:
+	\begin{align}
+		\Delta=\begin{vmatrix}
+			a_1&b_1&c_1\\
+			a_2&b_2&c_2\\
+			a_3&b_3&c_3
+		\end{vmatrix}=a_1\begin{vmatrix}b_2&c_2\\b_3&c_3\end{vmatrix}-b_1\begin{vmatrix}a_2&c_2\\a_3&c_3\end{vmatrix}+c_1\begin{vmatrix}a_2&b_2\\a_3&b_3\end{vmatrix}
+	\end{align}
+	\subsection{Minor and Cofactor}
+	For a third order determinant
+	\begin{align*}
+		\begin{vmatrix}
+			a_1&b_1&c_1\\
+			a_2&b_2&c_2\\
+			a_3&b_3&c_3
+		\end{vmatrix}
+	\end{align*}
+	\subsubsection{Minor}
+	\begin{align}
+		M \left( a_{11} \right) = M_{11} =\begin{vmatrix}b_2&c_2\\b_3&c_3\end{vmatrix}
+	\end{align}
+	i.e., all the terms of determinant expect those in the same row and columns as the one of which the minor is being calculated.
+	\subsubsection{Cofactor}
+	\begin{align}
+		C_{ij}=(-1)^{i+j} M_{ij}
+	\end{align}
+	
+	\section{Properties of Determinants}
+	\begin{enumerate}
+		\item Transposing a determinant does not alter its value.
+			\begin{align}
+				\Delta = \Delta^T
+			\end{align}
+		
+		\item If rows and columns are interchanges $m$ times, the value of the new determinant is
+			\begin{align}
+				\Delta'=(-1)^m \Delta
+			\end{align}
+		
+		\item If two parallel lines are equal, then $\Delta=0$
+		
+		\item For $\Delta=\begin{vmatrix}a_1&b_1&c_1\\a_2&b_2&c_2\\a_3&b_3&c_3\end{vmatrix}$ and $\Delta_1=\begin{vmatrix}ka_1&kb_1&kc_1\\a_2&b_2&c_2\\a_3&b_3&c_3\end{vmatrix}$, then $\Delta_1=k\Delta$
+		
+		\item For $\Delta=\begin{vmatrix}a_1&b_1&c_1\\a_2&b_2&c_2\\a_3&b_3&c_3\end{vmatrix}$ and $\Delta_1=\begin{vmatrix}ka_1&b_1&c_1\\ka_2&b_2&c_2\\ka_3&b_3&c_3\end{vmatrix}$, then $\Delta_1=k\Delta$
+		
+		\item For $C_n\rightarrow k_1C_l+k_2C_m+k_3C_n$ or $R_n\rightarrow k_1R_l+k_2R_m+k_3R_n$, $\Delta'=\Delta$
+	\end{enumerate}
+	
+	\section{Cramer's Rule}
+	For a system of equations:
+	\begin{align}
+		a_1x+b_1y+c_1z=d_1\nonumber\\
+		a_2x+b_2y+c_2z=d_2\nonumber\\
+		a_3x+b_3y+c_3z=d_3\nonumber
+	\end{align}
+	the following determinants are defined:
+	\begin{align}
+		D=\begin{vmatrix}a_1&b_1&c_1\\a_2&b_2&c_2\\a_3&b_3&c_3\end{vmatrix}\nonumber\\
+		D_x=\begin{vmatrix}d_1&b_1&c_1\\d_2&b_2&c_2\\d_3&b_3&c_3\end{vmatrix}\nonumber\\
+		D_y=\begin{vmatrix}a_1&d_1&c_1\\a_2&d_2&c_2\\a_3&d_3&c_3\end{vmatrix}\nonumber\\
+		D_z=\begin{vmatrix}a_1&b_1&d_1\\a_2&b_2&d_2\\a_3&b_3&d_3\end{vmatrix}\nonumber
+	\end{align}
+	The solution for the system of equations is:
+	\begin{align}
+		x=\dfrac{D_x}{D}\\
+		y=\dfrac{D_y}{D}\\
+		z=\dfrac{D_z}{D}
+	\end{align}
+
+	\subsection{Consistency Test}
+	\begin{enumerate}
+		\item If $D\neq0$, the system is consistent and has unique solutions.
+		
+		\item If $D=D_x=D_y=D_z=0$, the system may or may not be consisten and it will have infinite solutions and the system will be dependent.
+		
+		\item If $D=0$ and at least one of $D_x, D_y, D_z$ is non zero, the system is inconsistent
+	\end{enumerate}
+\end{document}

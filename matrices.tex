@@ -1,0 +1,74 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+	\chapter{Matrices}
+	For a matrix,
+	\begin{align}
+		A_{m \times n}=\begin{bmatrix}
+			a_{11}&a_{12}&\cdots&a_{1n}\\
+			a_{21}&a_{22}&\cdots&a_{2n}\\
+			\vdots&\vdots&\ddots&\vdots\\
+			a_{m1}&a_{m2}&\cdots&a_{mn}
+		\end{bmatrix}\nonumber
+	\end{align}
+	and where $I_p$ is an identity matrix of the $p^{th}$ order, the following relations are applicable.
+	
+	\section{Sum of Two Matrices}
+	\begin{align}
+		A_{m \times n}+B_{m \times n}=
+		\begin{bmatrix}
+			a_{11}+b_{11}&a_{12}+b_{12}&\cdots&a_{1n}+b_{1n}\\
+			a_{21}+b_{21}&a_{22}+b_{21}&\cdots&a_{2n}+b_{2n}\\
+			\vdots&\vdots&\ddots&\vdots\\
+			a_{m1}+b_{m1}&a_{m2}+b_{m2}&\cdots&a_{mn}+b_{mn}
+		\end{bmatrix}
+	\end{align}
+	
+	\section{Multiplication of Two Matrices\newline}
+	If \begin{align}C_{m \times p} = A_{m \times n} \cdot B_{n \times p} \end{align} 	then, \begin{align} c_{ik} = \sum_{j=1}^{n} a_{ij} \cdot b_{jk} \end{align}
+	\subsection{Multiplicative Properties}
+	\begin{enumerate}
+		\item Multiplication of matrices is associative, hence $(AB)C=A(BC)$.
+		\item $AI=A$
+		\item $A\cdot A^{-1}=I$
+		\item $A\cdot(adj A)=(adj A)\cdot A = \lvert A \rvert I$
+		\item $A^{-1}=\dfrac{1}{\lvert A \rvert} (adj A)^t$
+		\item $(AB)^t=B^tA^t$
+	\end{enumerate}
+	
+	\section{Adjoint of a Matrix}
+	\begin{align}
+		adj A=\begin{bmatrix}M_{11}&M_{12}&\cdots&M_{1n}\\ M_{21}&M_{22}&\cdots&M_{2n}\\ \vdots&\vdots&\ddots&\vdots\\M_{m1}&M_{m2}&\cdots&M_{mn}\\ \end{bmatrix}^t\text{, where } M_{ij} \text{ is the minor of } a_{ij} 
+	\end{align}
+	
+	\section{Martin's Rule}
+	For a system of equation,
+	\begin{align*}
+		a_{11} x_1 + a_{12} x_2 + & \cdots + a_{1n} x_n = b_1\\
+		a_{21} x_1 + a_{22} x_2 + & \cdots + a_{2n} x_n = b_2\\
+		& \vdots\\
+		a_{m1} x_1 + a_{m2} x_2 + &\cdots + a_{mn} x_n = b_n
+	\end{align*}
+	The system can be written as:
+	\begin{align}
+		&\begin{bmatrix}
+			a_{11} & a_{12} & \cdots & a_{1n}\\
+			a_{21} & a_{22} & \cdots & a_{2n}\\
+			\vdots & \vdots & \ddots & \vdots \\
+			a_{m1} & a_{m2} & \cdots & a_{mn}
+		\end{bmatrix}
+		\begin{bmatrix}
+			x_1\\
+			x_2\\
+			\vdots
+			\\ x_3
+		\end{bmatrix} = 
+		\begin{bmatrix}
+			b_1 \\
+			b_2 \\
+			\vdots \\
+			b_n
+		\end{bmatrix}\\
+		\Rightarrow & A X = B\\
+		\Rightarrow & X = A^{-1} B
+	\end{align}
+\end{document}
