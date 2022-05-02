@@ -66,3 +66,13 @@
 \contentsline {section}{\numberline {9.3}Wilson Theorem}{22}{}%
 \contentsline {part}{II\hspace {1em}Co-ordinate Geometry}{24}{}%
 \contentsline {chapter}{\numberline {10}2-D Co-ordinate Geometry}{25}{}%
+\contentsline {chapter}{\numberline {11}Triangles}{26}{}%
+\contentsline {chapter}{\numberline {12}Straight Line}{27}{}%
+\contentsline {section}{\numberline {12.1}Equation of Straight Line Passing Through $(x_0,y_0)$ and Slope $m$}{27}{}%
+\contentsline {section}{\numberline {12.2}Distance Between Two Points on a Line}{27}{}%
+\contentsline {section}{\numberline {12.3}Angle Between Two Lines}{27}{}%
+\contentsline {paragraph}{Distance of a Point from a Line\newline }{27}{}%
+\contentsline {paragraph}{Angle Bisector of a Line}{28}{}%
+\contentsline {paragraph}{Equation of a Straight Line Passing through the Intersection of Two Lines\newline }{28}{}%
+\contentsline {paragraph}{Relative Position of Points w.r.t. a Line}{28}{}%
+\contentsline {paragraph}{Ratio of Division of Line Segment}{28}{}%

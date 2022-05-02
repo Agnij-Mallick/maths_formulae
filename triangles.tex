@@ -1,0 +1,24 @@
+\documentclass[../main.tex]{subfile}
+\begin{document}
+	\chapter{Triangles}
+	For a triangle defined with three vertices $A(x_1,y_1),B(x_2,y_2),C(x_3,y_3)$ and corresponding sides of length $a,b,c$, then:
+	
+	\begin{align}
+		\text{Centroid of }\triangle ABC=(\dfrac{x_1+x_2+x_3}{3},\dfrac{y_1+y_2+y_3}{3})\\
+		\text{Area of }\triangle \\ ABC=\dfrac{1}{2}\begin{vmatrix}x_1&y_1&1\\x_2&y_2&1\\x_3&y_3&1\end{vmatrix}
+	\end{align}
+	For a triangle, the semi-perimeter, $s$, is defined as:
+	\begin{align}
+	s=\dfrac{a+b+c}{2}\nonumber
+	\end{align}
+	Then the radius, $r$, and centre of incircle, $o$, is:
+	\begin{align}
+		o=\left(\dfrac{ax_1+bx_2+cx_3}{a+b+c},\dfrac{ay_1+by_2+cy_3}{a+b+c}\right)\\
+		r=\sqrt{\dfrac{(s-a)(s-b)(s-c)}{s}}\\
+	\end{align}
+	The radius, $R$, and centre, $O$, of circumcircle is defined as:
+	\begin{align}
+		O & = \left( \dfrac{x_1 \sin 2A + x_2 \sin 2B + x_3 \sin 2C}{\sin 2A + \sin 2B + \sin 2C}, \dfrac{y_1 \sin 2A + y_2 \sin 2B + y_3 \sin 2C}{\sin 2A + \sin 2B + \sin 2C} \right)\\
+		2R & = \dfrac{a}{\sin A} = \dfrac{b}{\sin B} = \dfrac{c}{\sin C}
+	\end{align}
+\end{document}

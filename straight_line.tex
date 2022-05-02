@@ -1,0 +1,63 @@
+\documentclass[../main.tex]{subfile}
+\begin{document}
+	\chapter{Straight Line}
+	A straight line can be defined as:
+	
+	\begin{align}
+		y=mx+c\\
+		\dfrac{x}{a}+\dfrac{y}{b}=1\text{, where }a\text{ and }b\text{ are the intercepts at x and y axes respectively}\\
+		x\cos\alpha + y\sin\alpha = p\text{ (Normal Form)}\\
+		Ax+By+C=0\text{ (General Form)}
+	\end{align}
+	
+	\section{Equation of Straight Line Passing Through $(x_0,y_0)$ and Slope $m$}
+	\begin{align}
+		(y-y_0)=m(x-x_0)
+	\end{align}
+	
+	\section{Distance Between Two Points on a Line}
+	\begin{align}
+		\dfrac{y_1-y_2}{\sin\theta}=\dfrac{x_1-x_2}{\cos\theta}=\gamma\\
+		\theta=\tan^{-1}m
+	\end{align}
+	
+	\section{Angle Between Two Lines}
+	For two lines with slopes $m_1, m_2$, the angle between them, $\theta$:
+	\begin{align}
+		\theta=\arctan\left(\dfrac{m_1-m_2}{1+m_1m_2}\right)
+	\end{align}
+	
+	\paragraph{Distance of a Point from a Line\newline}
+	Line: $ax+by+c=0$
+	Point: $(g,h)$
+	\begin{align}
+		S=\dfrac{ag+bh+c}{\sqrt{a^2+b^2}}
+	\end{align}
+	
+	\paragraph{Angle Bisector of a Line}
+	For the two lines: $a_1x+b_1y+c_1=0$ and $a_2x+b_2y+c_2=0$, the angle bisector is:
+	\begin{align}
+		\dfrac{a_1x+b_1y+c_1}{\sqrt{a_1^2+b_1^2}}=\dfrac{a_2x+b_2y+c_2}{\sqrt{a_2^2+b_2^2}}
+	\end{align}
+	If the sign of $c_1$ and $c_2$ is the same, then the equation obtained is the internal bisector.
+	
+	\paragraph{Equation of a Straight Line Passing through the Intersection of Two Lines\newline}
+	\begin{align}
+		(a_1x+b_1y+c_1)+k(a_2x+b_2y+c_2)=0\text{ }\forall k\in\mathbb{R}
+	\end{align}
+	
+	\paragraph{Relative Position of Points w.r.t. a Line}
+	For the points $(x_1,y_1)$ and $(x_2,y_2)$:
+	\begin{align}
+		k_1=ax_1+by_1+c\nonumber\\
+		k_2=ax_2+by_2+c\nonumber
+	\end{align}
+	If $k_1$ and $k_2$ have the same sign, they are on the same side of a line, otherwise on opposite sides.
+	
+	\paragraph{Ratio of Division of Line Segment}
+	For any line, $f(x,y)=0$, the ratio in which it divides $(x_1,y_1)$ and $(x_2,y_2)$ is given by:
+	\begin{align}
+		r=-\dfrac{f(x_1,y_1)}{f(x_2,y_2)}
+	\end{align}
+	If $\begin{cases}r>0\text{, then division is internal}\\r<0\text{, then division is external}\end{cases}$.
+\end{document}
