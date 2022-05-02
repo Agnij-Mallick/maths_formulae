@@ -64,3 +64,5 @@
 \contentsline {section}{\numberline {9.2}Euler's Remainder Theorem}{21}{}%
 \contentsline {subsection}{\numberline {9.2.1}Euler's Totient Function}{21}{}%
 \contentsline {section}{\numberline {9.3}Wilson Theorem}{22}{}%
+\contentsline {part}{II\hspace {1em}Co-ordinate Geometry}{24}{}%
+\contentsline {chapter}{\numberline {10}2-D Co-ordinate Geometry}{25}{}%
