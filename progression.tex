@@ -1,0 +1,86 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+	\chapter{Progression}
+	
+	\section{Arithmetic Progression (A.P.)}
+	An arithmetic sequence is $a,a+n,a+2n,...\infty$ or $t_n = a+(n-1)d$, where $a$ is the first term, $d$ is the common difference, and $n$ is the $n^{th}$-term.\\
+	An arithmetic series is $a+(a+d)+(a+2d)+...\infty$.
+	\subsection{Sum of A.P. Series}
+	\begin{align}
+		S_n=a+(a+d)+...+(a+\overline{n-2}d)+(a+\overline{n-1}d)\nonumber\\
+		S_n=(a+\overline{n-1}d)+(a+\overline{n-2}d+...+(a+d)+ a\nonumber\\
+		\Rightarrow 2S_n=n(2a+\overline{n-1}d)\nonumber\\
+		\Rightarrow S_n=\dfrac{n}{2}(2a+\overline{n-1}d)
+	\end{align}
+
+	\subsection{Important Relation}
+	If the three terms $a,b,c$ are in A.P., then
+	\begin{align}
+		2b=a+c
+	\end{align}
+	
+	%--------------------------End of AP-------------------------------------------------
+	
+	\section{Geometric Progression (G.P.)}
+	An geometric sequence is $a,ar,ar^2,...\infty$ or $t_n=ar^{n-1}$, where $a$ is the first term, $r$ is the common ratio, and $n$ is the $n^{th}$-term.
+	An geometric series is $a+ar+ar^2+...\infty$.
+	\subsection{The Value of 'r'}
+	\begin{align}
+		r=\frac{t_2}{t_1}=\frac{t_3}{t_2}=...=\frac{t_{n}}{t_{n-1}}
+	\end{align}
+	
+	\subsection{Sum of a G.P.  Series}
+	For a definite G.P. series, where there are $n$ terms in the series, the sum of the series is:
+	\begin{align}
+		S_n=\dfrac{a\lvert r^n-1 \rvert}{\lvert r-1 \rvert}
+	\end{align}
+	
+	For an infite G.P. series the sum of the series is defined for $r<1$. Sum of such a series is:
+	\begin{align}
+		S_\infty=\dfrac{a}{1-r}
+	\end{align}
+	
+	\subsection{Important relations}
+	If the three terms $a,b,c$ are in G.P., then:
+	\begin{align}
+		b^2=ac
+	\end{align}
+
+	%End of GP--------------------------------------------------------------------
+
+	\section{Harmonic Progression (H.P.)}
+	If $a,b,c$ are terms of an H.P. then $\frac{1}{a},\frac{1}{b},\frac{1}{c}$ are in A.P.
+	\begin{align}
+		\dfrac{2}{b} = \dfrac{1}{a} + \dfrac{1}{c} \\
+		\Rightarrow b = \dfrac{2ac}{a+c}
+	\end{align}
+
+	%End of HP-------------------------------------------------------------------
+	
+	\section{\large{Arithmetico-Geometric Progression (A.G.P.)}}
+	Sequence $a, (a+d)r, (a+2d)r^2,...,(a+\overline{n-1}d)r^{n-1}$, where $a\rightarrow$first term of A.G.P., $d\rightarrow$common difference, and $r\rightarrow$common ratio.
+	\subsection{Sum of A.G.P.:}
+	For an infinite A.G.P. series, the sum is defined for $r<1$:
+	\begin{align}
+		S_\infty=\dfrac{a}{1-r}+\dfrac{dr}{(1-r)^2}
+	\end{align}
+
+	%End of AGP---------------------------------------------------------------------
+	
+	\section{Special Series}
+	For $n\in\mathbb{N}$
+	\begin{align}
+		1+2+3+....+(n-1)+n=\dfrac{n(n-1)}{2}\\
+		1^2+2^2+3^2+...+(n-1)^2+n^2=\dfrac{n(n+1)(2n+1)}{6}\\
+		1^3+2^3+3^3+...+(n-1)^3+n^3=[\dfrac{n(n-1)}{2}]^2
+	\end{align}
+	\subsection{Riemann Zeta Function}
+	\begin{equation}
+		\zeta(s)=\sum_{n=1}^\infty \dfrac{1}{n^s}
+	\end{equation}
+	\subsection{Riemann's Infinite Series as an Integration}
+	\label{riemannsum}
+	\begin{align}
+		\lim_{n\to\infty} \dfrac{1}{n}\sum_{i=r_1}^{r_2} f(\frac{i}{n})=\int_{\frac{r_1}{n}}^{\frac{r_2}{n}} f(x) dx
+	\end{align}
+\end{document}
