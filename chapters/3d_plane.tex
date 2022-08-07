@@ -1,0 +1,33 @@
+\documentclass[../main.tex]{subfile}
+
+\begin{document}
+\chapter{3D - Plane}
+    A plane in 3-D space can be defined as:
+    \begin{enumerate}
+    \item Cartesian Form: \begin{align} ax+by+cz+d=0 \end{align}
+    \item Vectorial Form: \begin{align}\vec{r}\cdot\vec{n}=p\end{align}, where $\vec{r}$ is a line on the plane, $\vec{n}$ is a normal to the plane, and $p$ is perpendicular distance to the plane from the origin.
+    \end{enumerate}
+
+    \section{Angle Between Two Planes}
+    For two planes, $\vec{r_1}\cdot\vec{n_1}=p_1$ and $\vec{r_2}\cdot\vec{n_2}=p_2$, the angle between the planes, $\theta$ is:
+    \begin{align}
+    \cos \theta=\dfrac{\vec{n_1}\cdot\vec{n_2}}{\lvert \vec{n_1} \rvert \lvert \vec{n_2} \rvert}
+    \end{align}
+    In the Cartesian Form:
+    \begin{align}
+    \cos \theta = \dfrac{a_1a_2+b_1b_2+c_1c_2}{\sqrt{{a_1}^2+{b_1}^2+{c_1}^2}\sqrt{{a_2}^2+{b_2}^2+{c_2}^2}}
+    \end{align}
+
+    \section{Distance of a Point from a Plane}
+    \subsection{Catesian Form}
+    For the point $(p,q,r)$ and the plane, $ax+by+cz+d=0$:
+    \begin{align}
+    S=\dfrac{ap+bq+cr+d}{\sqrt{a^2+b^2+c^2}}
+    \end{align}
+    \subsection{Vector Form}
+    For the point $\vec{g}=p\hat{i}+q\hat{j}+r\hat{k}$ and the plane $\vec{r}\cdot(a\hat{i}+b\hat{j}+c\hat{k})+d=0$:
+    \begin{align}
+    S & = \dfrac{ \left(a \hat{i} + b \hat{j} + c \hat{k} \right) \cdot \left( p \hat{i} + q \hat{j} + r\hat{k} \right) }{ \sqrt{ a^2 + b^2 + c^2}} \\
+    \Rightarrow S & = \dfrac{ \left( a \hat{i} + b \hat{j} + c \hat{k} \right) \cdot \vec{g} }{ \vert a \hat{i} + b \hat{j} + c \hat{k} \vert}
+    \end{align}
+\end{document}

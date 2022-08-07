@@ -5,11 +5,12 @@
 \usepackage{amsfonts}
 \usepackage{pgfplots}
 \usepackage{subfiles}
+\usepackage{titlesec}
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{fancyhdr}
 \usepackage[b5paper,total={170mm,257mm},left=15mm,right=15mm,top=15mm,bottom=10mm,includehead,includefoot]{geometry}
-\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
 %End of Packages Used----------------------------------------------
 
 \title{Mathematical Formulae\\A Book of High School and Engineering Common Core Mathematical Formulae}
@@ -19,7 +20,6 @@
 \pagestyle{fancy}
 \fancyhf{}
 \lhead{\nouppercase\leftmark}
-\rhead{Mathmatical Formulae}
 \cfoot{\thepage}
 
 \titleformat{\part}[frame]{\Huge}{Part \thepart}{15pt}{\centering}
@@ -46,4 +46,8 @@
 		\subfile{chapters/straight_line}
 		\subfile{chapters/general_theory_2d_eqn.tex}
 		\subfile{chapters/conics.tex}
+		\subfile{chapters/circles.tex}
+		\subfile{chapters/vectors.tex}
+		\subfile{chapters/3d_space.tex}
+		\subfile{chapters/3d_plane.tex}
 \end{document}

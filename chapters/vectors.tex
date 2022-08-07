@@ -1,0 +1,51 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+    \chapter{Vectors}
+    Let two vectors be $\vec{a}=a\hat{i}+b\hat{j}+c\hat{k}$ and $\vec{b}=x\hat{i}+y\hat{j}+z\hat{k}$:
+    \section{Modulus of a Vector}
+    For a vector $\vec{a}$, the modulus of the vector is:
+    \begin{align}
+        \lvert \vec{a} \rvert = \sqrt{a^2+b^2+c^2}
+    \end{align}
+
+    \section{Sum of Vectors}
+    The sum of two vectors is:
+    \begin{align}
+        \lvert \vec{a}+\vec{b} \rvert=\sqrt{\lvert \vec{a} \rvert^2+\lvert \vec{b} \rvert^2+2\lvert \vec{a} \rvert \lvert \vec{a} \rvert\cos \theta}\\
+        \vec{a}+\vec{b}=(a+x)\hat{i}+(b+y)\hat{j}+(c+z)\hat{k}
+    \end{align}
+    The direction of the resultant vector is:
+    \begin{align}
+        \tan \alpha=\dfrac{b\sin\theta}{a+b\cos\theta}
+    \end{align}
+    where, $\theta$ is the angle between the two vectors.
+
+    \section{Product of Vectors}
+    \subsection{Dot Product}
+    \begin{align}
+        \vec{a}\cdot\vec{b}=\lvert a \rvert \lvert b \rvert\cos\theta\\
+        \vec{a}\cdot\vec{b}=ax+by+cz
+    \end{align}
+
+    \subsection{Cross Product}
+    \begin{align}
+        \vec{a}\times\vec{b}=\lvert a \rvert \lvert b \rvert \sin\theta \hat{n}\\
+    \end{align}
+    where $\hat{n}$ is a vector $\perp\vec{a},\vec{b}$.
+    \begin{align}
+        \vec{a}\times\vec{b}=
+            \begin{vmatrix}
+            \hat{i}&\hat{j}&\hat{k}\\
+            a&b&c\\
+            x&y&z
+            \end{vmatrix}
+    \end{align}
+
+    \section{Test of Co-planarity}
+    Three vectors are called co-planar if:
+    \begin{align}
+        \lambda\vec{a}+\mu\vec{b}=\vec{c}\\
+        (\vec{a}\times\vec{b})\cdot\vec{c}=0
+    \end{align}
+\end{document}

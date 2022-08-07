@@ -1,0 +1,92 @@
+\documentclass[../main.tex]{subfile}
+
+\begin{document}
+    \chapter{3D - Space}
+    \section{Line segments in 3D - Space}
+        For points defined in a 3D space as $A(x_1,y_1,z_1)$ and $B(x_2,y_2,z_2)$:
+        \subsection{Distance between Two Points}
+            \begin{align}
+                AB=\sqrt{(x_1-x_2)^2+(y_1-y_2)^2+(z_1-z_2)^2}
+            \end{align}
+
+        \subsection{Section Formula of a Line Segment Divided in the ratio $m:n$}
+        \begin{align}
+            P=\left(\dfrac{nx_1+mx_2}{m+n},\dfrac{ny_1+my_2}{m+n},\dfrac{nz_1+mz_2}{m+n}\right)
+        \end{align}
+
+    \section{Line in 3D - Space}
+    For a line which is defined as $\vec{a}=a\hat{i}+b\hat{j}+c\hat{k}$:
+    \begin{enumerate}
+    \item Line numbers of the line is
+    \begin{align}
+        <a,b,c>
+    \end{align}
+    \item The line cosines are:
+    \begin{align}
+        <\dfrac{a}{\sqrt{a^2+b^2+c^2}},\dfrac{b}{\sqrt{a^2+b^2+c^2}},\dfrac{c}{\sqrt{a^2+b^2+c^2}}>\\
+        =<l,m,n>
+    \end{align}
+    \end{enumerate}
+
+    \subsection{Angle between Two Lines}
+    \begin{align}
+        \cos \theta	=\dfrac{a_1a_2+b_1b_2+b_1b_2}{\sqrt{a_1^2+b_1^2+c_1^2}\sqrt{a_2^2+b_2^2+c_2^2}}\\
+        \Rightarrow \cos \theta= l_1l_2+m_1m_2+n_1n_2
+    \end{align}
+    When two lines are $\perp, l_1l_2+m_1m_2+n_1n_2=0$.\newline
+    When two lines are $\parallel \dfrac{l_1}{l_2}=\dfrac{m_1}{m_2}=\dfrac{n_1}{n_2}=1$.
+
+    \subsection{Skew and Co-planar Lines}
+    Let there be two lines $\vec{r_1}$ and $\vec{r_2}$,
+    \begin{align}
+        \vec{r_1}=\vec{a_1}+\mu \vec{b_1} & \vec{r_2}=\vec{a_2}+\lambda \vec{b_2}
+    \end{align}
+
+    \subsection{Distance between Lines}
+    \subsubsection{The shortest distance between $r_1$ and $r_2$}
+    \begin{align}
+        S=\left\lvert \dfrac{(\vec{a_1}-\vec{a_2})\cdot (\vec{b_1}\times\vec{b_2})}{\lvert \vec{b_1}\times\vec{b_2} \rvert}\right\rvert
+    \end{align}
+    If $S=0$, the lines intersect.
+
+    \subsubsection{Cartesian Form}
+    For two lines defined as $\dfrac{x-x_1}{a_1}=\dfrac{y-y_1}{b_1}=\dfrac{z-z_1}{c_1}$ and $\dfrac{x-x_2}{a_2}=\dfrac{y-y_2}{b_2}=\dfrac{z-z_2}{c_2}$:
+    \begin{align}
+    S=
+        \begin{vmatrix}
+        x_2-x_1&y_2-y_1&z_2-z_1\\
+        a_1&b_1&c_1\\
+        a_2&b_2&c_2
+        \end{vmatrix}
+    \end{align}
+
+    \subsubsection{Distance Between Parallel Lines}
+    \begin{align}
+        S=\left| \dfrac{\vec{b}\cdot(\vec{a_2}-\vec{a_1})}{\lvert \vec{b} \rvert} \right|
+    \end{align}
+
+    \subsubsection{Distance of a Point to a Line}
+    For a point, $(x_1,y_1,z_1)$ the distance to a line $\dfrac{x-\alpha}{l}=\dfrac{y-\beta}{m}=\dfrac{z-\gamma}{n}$:
+    \begin{align}
+    S = \left(
+        \begin{vmatrix}
+        x_1-\alpha & y_1-\beta\\
+        l & m
+        \end{vmatrix} + 
+        \begin{vmatrix}
+        y_1-\beta & z_1-\gamma\\
+        m & n
+        \end{vmatrix}+
+        \begin{vmatrix}
+        z_1-\gamma & x_1-\alpha\\
+        n & l
+        \end{vmatrix}
+        \right)^{\dfrac{1}{2}}
+    \end{align}
+
+    \section{Triangular Plane}
+    \subsection{Centroid of a Triangle}
+    \begin{align}
+        G=\left(\dfrac{x_1+x_2+x_3}{3},\dfrac{y_1+y_2+y_3}{3},\dfrac{z_1+z_2+z_3}{3}\right)
+    \end{align}
+\end{document}
