@@ -1,0 +1,74 @@
+\documentclass[../main.tex]{subfile}
+
+\begin{document}
+    \chapter{Conics}
+    The four conic sections are: circle, parabola, ellipse, and hyperbola. Circle has been done separately in the next chapter.
+    
+    %Parabola
+
+    \section{Parabola}
+        \begin{table}[h!]
+        \caption{Properties of a Parabola}
+        \label{parabola}
+            \begin{center}
+                \begin{tabular}{l|c|c}
+                    Property&$y^2=4ax$&$x^2=4ay$\\
+                    \hline
+                    Axis&$y=0$&$x=0$\\
+                    Eccentricity&$1$&$1$\\
+                    Directrix&$x+a=0$&$y+a=0$\\
+                    Focus&$(a,0)$&$(0,a)$\\
+                    Vertex&$(0,0)$&$(0,0)$\\
+                    Length of latus rectum&$\lvert 4a \rvert$&$\lvert 4a \rvert$\\
+                    Equation of latus rectum&$x-a=0$&$y-a=0$\\
+                \end{tabular}
+            \end{center}
+        \end{table}
+
+    %Ellipse and Hyperbola
+    
+    \section{Ellipse and Hyperbola}
+    For $a>b$:
+    \begin{table}[h!]
+        \begin{center}
+            \caption{Properties of Ellipse and Hyperbola}
+            \label{ell&hyp}
+            \begin{tabular}{l|c|c}
+                Property&$\dfrac{x^2}{a}+\dfrac{y^2}{b}=1$&$\dfrac{x^2}{a}-\dfrac{y^2}{b}=1$\\
+                &Ellipse&Hyperbola\\
+                \hline
+                Length of Major Axis&$2a$&$2a$\\
+                Length of Minor Axis&$2b$&$2b$\\
+                Equation of Major Axis&$x=0$&$x=0$\\
+                Equation of Minor Axis&$y=0$&$y=0$\\
+                Eccentricity $e$&$\sqrt{1-\dfrac{b^2}{a^2}}$&$\sqrt{1+\dfrac{b^2}{a^2}}$\\
+                Vertices&$(\pm a,0)$&$(\pm a,0)$\\
+                Foci&$(\pm ae,0)$&$(\pm ae,0)$\\
+                Equation of Directrix&$x \pm \dfrac{a}{e}=0$ &$x=\pm\dfrac{a}{e}$\\
+                Length of latus rectum&$\dfrac{2b^2}{a}$&$\dfrac{2b^2}{a}$\\
+                Equation of latus rectum&$x \pm ae=0$& \\
+                Centre&$(0,0)$&$(0,0)$
+            \end{tabular}
+        \end{center}
+    \end{table}
+
+    %Circle
+    
+    \section{Parametric Form of Conics}
+    \subsection{Hyperbola}
+    \begin{align}
+        x=a\sec \theta\\
+        y=b=\tan \theta
+    \end{align}
+
+    \subsection{Ellipse}
+    \begin{align}
+        x=a\cos\phi\\
+        y=b\sin\phi
+        \end{align}
+        \subsection{Parabola}
+        \begin{align}
+        x=at^2\\
+        y=2at
+    \end{align}
+\end{document}
