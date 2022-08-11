@@ -11,6 +11,7 @@
 \usepackage{fancyhdr}
 \usepackage[b5paper,total={170mm,257mm},left=15mm,right=15mm,top=15mm,bottom=10mm,includehead,includefoot]{geometry}
 \usepackage[hidelinks]{hyperref}
+\usepackage{pgfplots}
 %End of Packages Used----------------------------------------------
 
 \title{Mathematical Formulae\\A Book of High School and Engineering Common Core Mathematical Formulae}
@@ -30,24 +31,37 @@
 	\tableofcontents
 
 	\part{Algebra}
-		\subfile{chapters/logarithm}	
-		\subfile{chapters/complexnum}
-		\subfile{chapters/progression}
-		\subfile{chapters/test_of_convergence}
-		\subfile{chapters/determinants}
-		\subfile{chapters/matrices}
-		\subfile{chapters/binomial_theorem}
-		\subfile{chapters/boolean_algebra}
-		\subfile{chapters/remainder_theorem}
+		\subfile{chapters/algebra/logarithm}
+		\subfile{chapters/algebra/complexnum}
+		\subfile{chapters/algebra/progression}
+		\subfile{chapters/algebra/test_of_convergence}
+		\subfile{chapters/algebra/determinants}
+		\subfile{chapters/algebra/matrices}
+		\subfile{chapters/algebra/binomial_theorem}
+		\subfile{chapters/algebra/boolean_algebra}
+		\subfile{chapters/algebra/remainder_theorem}
 		
 	\part{Co-ordinate Geometry}
-		\subfile{chapters/2D.tex}
-		\subfile{chapters/triangles}
-		\subfile{chapters/straight_line}
-		\subfile{chapters/general_theory_2d_eqn.tex}
-		\subfile{chapters/conics.tex}
-		\subfile{chapters/circles.tex}
-		\subfile{chapters/vectors.tex}
-		\subfile{chapters/3d_space.tex}
-		\subfile{chapters/3d_plane.tex}
+		\subfile{chapters/coordinate_geom/2D}
+		\subfile{chapters/coordinate_geom/triangles}
+		\subfile{chapters/coordinate_geom/straight_line}
+		\subfile{chapters/coordinate_geom/general_theory_2d_eqn}
+		\subfile{chapters/coordinate_geom/conics}
+		\subfile{chapters/coordinate_geom/circles}
+		\subfile{chapters/coordinate_geom/vectors}
+		\subfile{chapters/coordinate_geom/3d_space}
+		\subfile{chapters/coordinate_geom/3d_plane}
+
+	\part{Statistics}
+		\subfile{chapters/statistics/des_stas.tex}
+		\subfile{chapters/statistics/hypothesis_testing.tex}
+		\subfile{chapters/statistics/research_survey_design.tex}
+		\subfile{chapters/statistics/regression.tex}
+		\subfile{chapters/statistics/dummy_var.tex}
+		\subfile{chapters/statistics/logistic_regression.tex}
+		% To be added:
+		% 1. Cluster Analysis
+		% 2. Factor Analysis
+		% 3. Multi - dimensional scaling
+		% 4. Conjoint Analysis
 \end{document}
