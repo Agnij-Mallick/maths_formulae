@@ -1,0 +1,79 @@
+\documentclass[../main.tex]{subfile}
+\begin{document}
+    \chapter{Estimation of Regression Function}
+    For the regression functions:
+    \begin{align}
+        Y_i = \beta_0 + \beta_1 X_1\\
+        \hat{Y_i} = \hat{\beta_0} + \hat{\beta_1} X_1\\
+    \end{align}
+    where $Y_i$ is the observed dependent variable (DV), $\hat{Y_i}$ is the estimated DV, and $X_i$ is the independent variable (IV).
+    \begin{align}
+        u_i &= Y_i - \hat{Y_i}\\
+        \Rightarrow Y_i &= \hat{Y_i} + u_i\\
+        \Rightarrow Y_i &= \hat{\beta_0} + \hat{\beta_1} X_1 + u_i\\
+        Y_i &= \beta_0 + \beta_1 X_i+\epsilon_i
+    \end{align}
+    The objective function is:
+    \begin{align*}
+        \displaystyle^{\min}_{u_i} \sum u_i &= \min \sum_i \left[ Y_i - \hat{\beta_0} - \hat{\beta_1} X_i\right]^2\\
+        &\text{Since the regression function passes through: } \left(\bar{X},\bar{Y}\right) \tag*{}\\
+        \beta_0 &= \bar{Y} - \hat{\beta_1}\bar{X}\\
+        \displaystyle^{\min}_{u_i} \sum u_i &= \min \sum_i \left[ Y_i - \bar{Y} + \hat{\beta_1} \bar{X} - \hat{\beta_1} X_i\right]^2\\
+        & = \min \sum_i \left[\left(Y_i - \bar{Y}\right) - \hat{\beta_1} \left(X_i - \bar{X}\right)\right]^2\\
+        & = \min \sum_i \left[\left(Y_i - \bar{Y}\right)^2 - 2 \cdot \left(Y_i - \bar{Y}\right) \cdot \hat{\beta_1} \left(X_i - \bar{X}\right) + \hat{\beta_1}^2 \left(X_i - \bar{X}\right)^2 \right]\\
+        & = \min \left[\sum_i \left(Y_i - \bar{Y}\right)^2 - 2 \cdot \hat{\beta_1} \sum_i \left(Y_i - \bar{Y}\right) \cdot  \left(X_i - \bar{X}\right) + \hat{\beta_1}^2 \sum_i \left(X_i - \bar{X}\right)^2 \right]\\
+        \Rightarrow u_i^{\beta_1} &= - 2 \sum_i \left(Y_i - \bar{Y}\right) + 2 \hat{\beta_1} \left(X_i - \bar{X}\right)^2 = 0 \tag{For optima Conditions}\\
+        \Rightarrow \hat{\beta_1} &= \boxed{\dfrac{\sum_i (Y_i - \bar{Y})(X_i - \bar{X})}{\sum_i (X_i - \bar{X})^2}}\\
+        \Rightarrow \hat{\beta_0} &= \boxed{\bar{Y} - \hat{\beta_1} \bar{X}}
+    \end{align*}
+
+    \section{Sum of Squares Error}
+    \begin{align}
+        TSS &= \sum_i (Y_i - \bar{Y})^2\\
+        & = \underbrace{\sum_i (\hat{Y_i}-\bar{Y})}_{\text{Explained Sum of Square Error (ESS)}} + \underbrace{\sum_i u_i^2}_{\text{Residual Sum of Squares Error (RSS)}}
+    \end{align}
+    \subsection{$R^2$: Coefficient of Determination}
+    \begin{align}
+        R^2 &= \dfrac{\text{ESS}}{\text{TSS}}\\
+        &= 1 - \dfrac{\text{RSS}}{\text{TSS}}\\
+        &= 1 - \dfrac{\sum_i u_i^2}{\sum_i (Y_i-\bar{Y})^2}
+    \end{align}
+    For a regression analysis with single IV:
+    \begin{align*}
+        \sqrt{R^2} = v
+    \end{align*}
+    \subsection{$\bar{R^2}$: Coefficient of Determination}
+    \begin{align}
+        \bar{R^2}= 1 - \dfrac{\dfrac{\sum_i u_i^2}{(N-K-1)}}{\dfrac{\sum_i (Y_i-\bar{Y})^2}{(N-1)}}
+    \end{align}
+    where, $N$ is the number of observations and $K$ is the number of independent variables.
+
+    \section{T-Test}
+    Test for statistical significance of a single IV.
+    \begin{align}
+        T = \dfrac{\hat{\beta_1}-0}{S_e(\hat{\beta_1})}
+    \end{align}
+    \section{F-Test}
+    Test for statistical significance of all IVs together.
+    \begin{align}
+        F = \dfrac{\dfrac{\text{ESS}}{(K-1)}}{\dfrac{\text{RSS}}{(N-K)}} \tag{$F \geq F_c, H_0$ is rejected}
+    \end{align}
+
+    \section{Test for Heteroskedasticity}
+    \subsection{Definition} $\sigma_{\epsilon_i} \forall  \epsilon_i \in [X_a, X_b] = \sigma_{\epsilon_i} \forall  \epsilon_i \in [X_{b+1}, X_c]$
+    \subsection{Durbin-Watson Test}
+    \begin{align}
+        d_e = \dfrac{\sum_{t=2}^{n} (\hat{u_t}-\hat{u_{t-1}})^2}{\sum_{t=2}^{n} \hat{u_t}^2}
+    \end{align}
+    For the $H_0$: No autocorrelation:
+    \begin{table}[!h]
+        \centering
+        \begin{tabular}{l|c}
+            $d$ & $H_0$\\
+            \hline
+            $0 \leq d_e \leq d_L$ \& $(4-d_L) \leq d_e \leq 4$ & Rejected\\
+            $d_L < d_e \leq d_U$ \& $(4-d_U) < d_e \leq (4-d_L)$ & Decision Free Zone\\
+            $d_L < d_e < D_U$ & Not rejected
+        \end{tabular}
+    \end{table}
+\end{document}

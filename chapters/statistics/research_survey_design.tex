@@ -1,0 +1,23 @@
+\documentclass[../main.tex]{subfile}
+\begin{document}
+    \chapter{Research and Survey Design}
+    \section{Population Covariance}
+    \begin{align}
+        \text{Cov}(x,y)=\dfrac{1}{n} \sum_{i=1}^n (x_i-\mu_x)(y_i-\mu_y)
+    \end{align}
+    \section{Sample Covariance}
+    \begin{align}
+        \text{Cov}(x,y)=\dfrac{1}{n-1} \sum_{i=1}^n (x_i-\bar{x})(y_i-\bar{y})
+    \end{align}
+    \section{Bravais-Pearson Correlation Co-efficient}
+    \begin{align}
+        r &= \dfrac{\sum_{i=1}^n (x_i-\bar{x})(y_i-\bar{y})}{\sqrt{\sum_{i=1}^n (x_i-\bar{x})^2} \cdot \sqrt{\sum_{i=1}^n (y_i -\bar{y})^2}}\\
+        & = \dfrac{\text{Cov}(x,y)}{\sqrt{\text{Var}(x) \cdot \text{Var}(y)}}\\
+        & = \dfrac{\text{Cov}(x,y)}{\sigma_x \cdot \sigma_y}
+    \end{align}
+    \section{Spearman's Rank Correlation  	Co-efficient}
+    \begin{align}
+        r_s & = 1-\dfrac{6 \sum d_i^2}{n\left(n^2-1\right)}\\
+        d_i &= R(X_i) - R(Y_i)
+    \end{align}
+\end{document}

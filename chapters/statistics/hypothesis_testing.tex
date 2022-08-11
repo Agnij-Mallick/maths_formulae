@@ -1,0 +1,29 @@
+\documentclass[../main.tex]{subfile}
+\begin{document}
+    \chapter{Hypothesis Testing}
+    \section{T-Test}
+    \begin{align}
+        T = \dfrac{\bar{X}-\mu}{\frac{s}{\sqrt{n}}}
+    \end{align}
+    where:
+    \begin{align*}
+        \bar{X} &= \text{Sample Mean}\\
+        \mu &= \text{Assumed Mean}\\
+        s &= \text{Number of Samples}\\
+        n &= \text{Number of observations}
+    \end{align*}
+
+    If $T < t_c$ the $H_0$ is not rejected. $t_c$ is a functions of level of significance $(\alpha)$ and degrees of freedom $(v = n -1)$.
+
+    \section{$\chi^2$ Test}
+    \begin{align}
+        \chi^2 = \sum_i \sum_j \dfrac{(h_{ij}^o-h_{ij}^e)^2}{h_{ij}^e}
+    \end{align}
+    where:
+    \begin{align*}
+        h_e &= \text{Expected Value}\\
+        h_o &= \text{Actual Value}
+    \end{align*}
+
+    If $\chi^2 < \chi_c^2$ then $H_0$ is not rejected. $\chi_c$ is a functions of level of significance $(\alpha)$ and degrees of freedom $(v = (i-1)(j-1))$.
+\end{document}

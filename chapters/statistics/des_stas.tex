@@ -1,0 +1,118 @@
+\documentclass[../main.tex]{subfile}
+
+\begin{document}
+    \chapter{Descriptive Statistics}
+    \section{Measure of Location}
+    \subsection{Mean}
+    \begin{align}
+        \bar{x} = \dfrac{1}{n} \displaystyle\sum_{i=1}^{n} x_i
+    \end{align}
+
+    \subsection{Median}
+    For odd number of elements in a dataset:
+    \begin{align}
+        \tilde{x} = x_{\frac{n+1}{2}}
+    \end{align}
+    For even number of elements in a dataset:
+    \begin{align}
+        \tilde{x} = \dfrac{x_{\frac{n}{2}}+x_{\left(\frac{n}{2}+1\right)}}{2}
+    \end{align}
+
+    \subsection{Mode}
+    \begin{align}
+        Mo(x) = \max(f(x_i))
+    \end{align}
+
+    \subsection{Quartile}
+    Measure of percentage of elements less than or equal to a term
+
+    \section{Measure of Spread}
+    \subsection{Variance}
+    Variance measured on the whole population
+    \begin{align}
+        \sigma^2 = \dfrac{1}{n} \sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2
+    \end{align}
+
+    \subsection{Sample Variance}
+    Variance measured on a sample population
+    \begin{align}
+        s^2 = \dfrac{1}{n-1} \sum_{i=1}^{n} \left( x_i - \bar{x} \right)^2
+    \end{align}
+
+    \subsection{Standard Deviation and Sample Standard}
+    \begin{align}
+        \sigma = \sqrt{\sigma^2}\\
+        s=\sqrt{s^2}
+    \end{align}
+
+    \subsection{Co-efficient of Variance}
+    \begin{align}
+        v = \dfrac{s}{\bar{x}}
+    \end{align}
+
+    \section{Skewness}
+    \subsection{Types of Skewness}
+    \begin{table}[!h]
+        \centering
+        \begin{tabular}{c|c|l}
+            Name & Other Name & Characteristic\\
+            \hline
+            Right Skew & Positive Skew & Data concentrated on the lower side\\
+            Symmetric Distribution & Normal Distribution & Data distributed evenly\\
+            Left Skew & Negative Skew & Data concentrated on the higher side
+        \end{tabular}
+    \end{table}
+
+    \subsection{Measure of Skewness}
+    Skewness is measured by the Moment Co-efficient of Skewness.
+    \begin{align}
+        g_m &= \dfrac{m_3}{s^3}, \text{ where}\\
+        m_3 &= \dfrac{1}{n}\sum_{i=1}^{n} \left( x_i - \bar{x} \right)^3
+    \end{align}
+
+    \subsubsection{Type of Skewness}
+    The type of skewness from the value is $g_m$ is:
+    \begin{table}[h!]
+        \centering
+        \begin{tabular}{c|c}
+            Value of $g_m$ & Type\\
+            \hline
+            $g_m = 0$ & Symmetric\\
+            $g_m > 0$ & Positive Skew\\
+            $g_m < 0$ & Negative Skew
+        \end{tabular}
+    \end{table}
+
+    \subsubsection{Degree of Skewness}
+    The degree of skewness from the value is $g_m$ is:
+    \begin{table}[h!]
+        \centering
+        \begin{tabular}{c|c}
+            Value of $g_m$ & Degree\\
+            \hline
+            $|g_m| > 1$ & High Skewness\\
+            $0.5 <|g_m| \geq 1$ & Moderate Skewness\\
+            $|g_m| \leq 0.5$ & Low Skewness
+        \end{tabular}
+    \end{table}
+
+    \section{Kurtosis}
+    Kurtosis is the measure of peakedness of data. Fisher's kurtosis measure is defined as:
+    \begin{align}
+        \gamma &= \dfrac{m_4}{s^4}, \text{ where}\\
+        m_4 &= \dfrac{1}{n}\sum_{i=1}^{n} \left( x_i - \bar{x} \right)^4
+    \end{align}
+
+    \subsection{Type of Kurtosis}
+    The types of kurtosis from the value of $\gamma$ are:
+    \begin{table}[h!]
+        \centering
+        \begin{tabular}{c|c}
+            Value of $\gamma$ & Type\\
+            \hline
+            $\gamma = 0$ & Normal Distribution or Mesokurtic\\
+            $\gamma < 0$ & Flattened or Platykurtic\\
+            $\gamma > 0$ & Peaked or Lepokurtic
+        \end{tabular}
+    \end{table}
+\end{document}
