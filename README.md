@@ -69,3 +69,5 @@ If you must insist on using spaces for indentation, like a sociopath, use 4 spac
 
 ## Acknowledgement
 The original handwritten notebook was inspired by Dr. Rabindranath Das, who was my maths tutor from 2015 to 2017. He guided me through preparing and maintaining the original version of this book, when he would spend 3 hours each Wednesday tutoring my high school self in maths.
+
+Also, a major shoutout to the kind people of [r/LaTeX](https://www.reddit.com/r/LaTeX/) Subreddit whose input was vital to the reorganization and cleanup of the original monolithic code.
