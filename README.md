@@ -1,7 +1,7 @@
 # A Book of High School and Engineering and Engineering Common Core Mathematical Formulae
 I started this book in 2015 to keep track of new formulas I encountered while solving my high school mathematics problems. What started as a small spiral notebook soon needed more pages as I kept adding to it over the next 5 years.
 
-In December of 2020, I realised that it is impossible to maintain this notebook in a physical form anymore. Over 5 years noting down formulae as I came across them became more haphazard. Differential equations was before indefinite integration, boolean algebra appeared in-between two chapters of geometry.
+In December of 2020, I realised that it is impossible to maintain this notebook in a physical form anymore. Over 5 years, after noting down formulae as I came across them, the order of chapters became more haphazard. Differential equations was before indefinite integration, boolean algebra appeared in-between two chapters of geometry and a host of other small bits that had to be placed away from other relevant formulae because I was out of space.
 
 So I took it upon myself to, in a way, restore my notebook through digitization. This served three purposes:
 1. I was able to reorganise the book into a more coherent order,
