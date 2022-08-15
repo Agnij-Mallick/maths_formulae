@@ -1,5 +1,4 @@
 # A Book of High School and Engineering and Engineering Common Core Mathematical Formulae
-======
 I started this book in 2015 to keep track of new formulas I encountered while solving my high school mathematics problems. What started as a small spiral notebook soon needed more pages as I kept adding to it over the next 5 years.
 
 In December of 2020, I realised that it is impossible to maintain this notebook in a physical form anymore. Over 5 years noting down formulae as I came across them became more haphazard. Differential equations was before indefinite integration, boolean algebra appeared in-between two chapters of geometry.
@@ -18,7 +17,6 @@ In the subsequent sections I will describe the LaTeX code and the organisation o
 **The book is currently being transitioned from a monolithic file into smaller, readable subfiles. If you see this message please download the *original.pdf* file in the directory *_v1* to access the full book.**
 
 ## Page Size and Border
-------
 The page size and borders have been optimised for an Amazon Kindle 6" screen. Through multiple trials, I have found the B5 paper to be the best fit for the Kindle Screen. The document options *openany* and *oneside* have been used to make this book better suited for digital use.
 
 These settings should also work well with any computer screen.
@@ -26,13 +24,11 @@ These settings should also work well with any computer screen.
 If you need to change it to suit your needs, adjust line 12 in the *main.tex* file.
 
 ## Orgnisation of the Code
-------
 The file *main.tex* contains the packages and links to the *subfiles* used in the book. 
 
 Each chapter is a *sublife* which is organised under the respective subtopics in maths. Each subtopic has its own separate sub-directory within the **chapters** directory.
 
 ## Packages, Environment, and Code
-------
 ### Packages
 All unnecessary packages from the original version have been removed. They are added as and when they are required. Please ensure that existing packages suffice before adding any new packages.
 
@@ -53,15 +49,15 @@ v =
 Please punctuate your code with spaces.
 ```latex
 \begin{align}
-c = a + b \\
-e = c + d
+    c = a + b \\
+    e = c + d
 \end{align}
 ```
 Instead of
 ```latex
 \begin{align}
-c=a+b\\
-e=c+d
+    c=a+b\\
+    e=c+d
 \end{align}
 ```
 This, in my opinion, improves the readability of the code and allows easier rectifications when needed.
