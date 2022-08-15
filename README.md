@@ -66,3 +66,6 @@ This, in my opinion, improves the readability of the code and allows easier rect
 I would request all new code to be properly indented with *TAB*.
 
 If you must insist on using spaces for indentation, like a sociopath, use 4 spaces for indentation.
+
+## Acknowledgement
+The original handwritten notebook was inspired by Dr. Rabindranath Das, who was my maths tutor from 2015 to 2017. He guided me through preparing and maintaining the original version of this book, when he would spend 3 hours each Wednesday tutoring my high school self in maths.
