@@ -5,13 +5,16 @@
 	\section{Arithmetic Progression (A.P.)}
 	An arithmetic sequence is $a,a+n,a+2n,...\infty$ or $t_n = a+(n-1)d$, where $a$ is the first term, $d$ is the common difference, and $n$ is the $n^{th}$-term.\\
 	An arithmetic series is $a+(a+d)+(a+2d)+...\infty$.
-	\subsection{Sum of A.P. Series}
-	\begin{align}
-		S_n=a+(a+d)+...+(a+\overline{n-2}d)+(a+\overline{n-1}d)\nonumber\\
-		S_n=(a+\overline{n-1}d)+(a+\overline{n-2}d+...+(a+d)+ a\nonumber\\
-		\Rightarrow 2S_n=n(2a+\overline{n-1}d)\nonumber\\
-		\Rightarrow S_n=\dfrac{n}{2}(2a+\overline{n-1}d)
-	\end{align}
+	
+	\begin{strip}
+		\subsection{Sum of A.P. Series}
+		\begin{align}
+			S_n & = a + (a + d)+ \cdots + (a + \overline{n-2}d) + (a + \overline{n-1}d) \nonumber\\
+			S_n & = (a + \overline{n-1}d) + (a + \overline{n-2} d) + \cdots +(a + d) + a \nonumber\\
+			\Rightarrow 2S_n & = n(2a + \overline{n - 1}d) \nonumber\\
+			\Rightarrow S_n & = \dfrac{n}{2} (2a + \overline{n - 1} d)
+		\end{align}
+	\end{strip}
 
 	\subsection{Important Relation}
 	If the three terms $a,b,c$ are in A.P., then
@@ -67,17 +70,21 @@
 
 	%End of AGP---------------------------------------------------------------------
 	
-	\section{Special Series}
-	For $n\in\mathbb{N}$
-	\begin{align}
-		1+2+3+....+(n-1)+n=\dfrac{n(n-1)}{2}\\
-		1^2+2^2+3^2+...+(n-1)^2+n^2=\dfrac{n(n+1)(2n+1)}{6}\\
-		1^3+2^3+3^3+...+(n-1)^3+n^3=[\dfrac{n(n-1)}{2}]^2
-	\end{align}
+	\begin{strip}
+		\section{Special Series}
+		For $n\in\mathbb{N}$
+		\begin{align}
+			1+2+3+....+(n-1)+n=\dfrac{n(n-1)}{2}\\
+			1^2+2^2+3^2+...+(n-1)^2+n^2=\dfrac{n(n+1)(2n+1)}{6}\\
+			1^3+2^3+3^3+...+(n-1)^3+n^3=[\dfrac{n(n-1)}{2}]^2
+		\end{align}
+	\end{strip}
+
 	\subsection{Riemann Zeta Function}
-	\begin{equation}
+	\begin{align}
 		\zeta(s)=\sum_{n=1}^\infty \dfrac{1}{n^s}
-	\end{equation}
+	\end{align}
+
 	\subsection{Riemann's Infinite Series as an Integration}
 	\label{riemannsum}
 	\begin{align}

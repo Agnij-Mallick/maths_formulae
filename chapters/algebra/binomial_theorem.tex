@@ -1,15 +1,17 @@
 \documentclass[../main.tex]{subfiles}
 \begin{document}
-	\chapter{Binomial Theorem}
+\chapter{Binomial Theorem}
+\begin{strip}
 	For a binomial expansion $(a+b)^n$, there are $(n+1)$ terms and $(a+b+c)^n$ has $\dfrac{(n+1)(n+2)}{2}$ terms.
-	\section{Expansion of a binomial expression}
-	\begin{align}
+
+		\section{Expansion of a binomial expression}
+			\begin{align}
 				(a+b)^n & = ^nC_0 a^n b^0 + ^nC_1 a^{n-1} b^1 + ^nC_2 a^{n-2} b^2 + \cdots + ^nC_n a^0 b^n \nonumber \\
 				& = \sum_{i=0}^{n} {^nC_{i}} a^{n-i} b^i \nonumber \\
 				& \forall n \in \mathbb{N}\\				
 				(a+b)^n & = a^n b^0 + na^{n-1} b + \dfrac{n(n-1)}{2!} a^{n-2} b^2  + \cdots + \dfrac{n(n-1) \cdots 3 \cdot 2 \cdot 1}{n!} a^0 b^n + \cdots \infty \nonumber\\
 				&\forall n \in \mathbb{R}
-	\end{align}
+		\end{align}
 	
 	\section{Trinomial Expansion}
 	For $(a+b+c)^n$:
@@ -24,6 +26,7 @@
 		&\text{Sum of Odd Co-efficients: } C_0 + C_2 + C_4 + \cdots + C_{2n-3} + C_{2n-1} = 2^{n-1}\\
 		& C_0 - C_1 + C_2 - \cdots + C_{2n-1} - C_{2n} = 0
 	\end{align}
+\end{strip}
 	
 	\section{Pascal's Rule}
 	For $1 \leq k \leq n$ and  $k,n \in \mathbb{N}$:

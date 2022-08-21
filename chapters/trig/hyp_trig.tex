@@ -1,0 +1,41 @@
+\documentclass[../main.tex]{subfile}
+\begin{document}
+    \chapter{Hyperbolic Trigonometric Functions}
+    \section{Definition}
+    Hyperbolic trigonometric functions are defined such that $(\cosh t,\sinh t)$ form the right half of an equilateral hyperbola. The functions are defined as follows:
+    \begin{align}
+        \sinh x & = \dfrac{\exp(x) - \exp(-x)}{2}\\
+        \cosh x & = \dfrac{\exp(x) + \exp(-x)}{2}\\
+        \tanh x & = \dfrac{\sinh x}{\cosh x} = \dfrac{\exp(x) - \exp(-x)}{\exp(x) + \exp(-x)}\\
+        \coth x & = \dfrac{1}{\tanh x} = \dfrac{\exp(x) + \exp(-x)}{\exp(x) - \exp(-x)}\\
+        \text{csch} x & = \dfrac{1}{\sinh x} = \dfrac{2}{\exp(x) - \exp(-x)}\\
+        \text{sech} x & = \dfrac{1}{\cosh x} = \dfrac{2}{\exp(x) + \exp(-x)}
+    \end{align}
+
+    \section{Identities}
+    \begin{align}
+        \coth^2 x - \sinh^2 x & = 1\\
+        \tanh^2 x + sech^2 x & = 1\\
+        \coth^2 x - csch^2 x & = 1
+    \end{align}
+
+    \section{Inverse Hyperbolic Function}
+    \begin{align}
+        \sinh^{-1} z & = \ln(z + \sqrt{z^2 + 1})\\
+        \cosh^{-1} z & = \ln(z \pm \sqrt{z^2 - 1})\\
+        \tanh^{-1} z & = \dfrac{1}{2} \ln \left(\dfrac{1 + z}{1 - z} \right)\\
+        \coth^{-1} z & = \dfrac{1}{2} \ln \left(\dfrac{z + 1}{z - 1} \right)\\
+        csch^{-1} z & = \ln \left( \dfrac{1 \pm \sqrt{z^2 + 1}}{z} \right)\\
+        sech^{-1} z & = \ln \left( \dfrac{1 \pm \sqrt{1 - z^2}}{2} \right)
+    \end{align}
+
+    \section{Relation to Circular Trigonometric Functions}
+    \begin{align}
+        \sinh (z) & = -i\sin (iz)\\
+        \coth (z) & = \cos (iz)\\
+        \tanh (z) & = -i \tan (iz)\\
+        csch (z) & = i\csc (iz)\\
+        sech (z) & = \sec (iz)\\
+        \coth (z) & = i\cot (iz)
+    \end{align}
+\end{document}

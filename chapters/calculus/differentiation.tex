@@ -1,0 +1,74 @@
+\documentclass[../main.tex]{subfile}
+\begin{document}
+    \chapter{Differentiation}
+    \section{Differentiation by First Principle}
+    \begin{align}
+        \dfrac{df(x)}{dx} = \lim_{h \to 0} \dfrac{f(x + h) - f(x)}{h}
+    \end{align}
+
+    \section{Standard Differentiation Formulae}
+    \begin{align}
+        \dfrac{dk}{dx} & = 0\\
+        \dfrac{dx^n}{dx} & = nx^{n - 1}\\
+        \dfrac{da^x}{dx} & = \ln a \cdot a^x\\
+        \dfrac{d\exp(x)}{dx} & = \exp(x)\\
+        \dfrac{d\ln x}{dx} & = \dfrac{1}{x}\\
+        \dfrac{d\sqrt{x}}{dx} & = \dfrac{1}{2\sqrt{2}}\\
+    \end{align}
+    \subsection{Circular Trigonometric Functions}
+    \begin{align}
+        \dfrac{d\sin x}{dx} & = \cos x\\
+        \dfrac{d\cos x}{dx} & = -\sin x\\
+        \dfrac{d\tan x}{dx} & = \sec^2 x\\
+        \dfrac{d\sec x}{dx} & = \sec x \cdot \tan x\\
+        \dfrac{d\csc x}{dx} & = -\csc x \cdot \cot x\\
+        \dfrac{d\cot x}{dx} & = -\csc^2 x
+    \end{align}
+    \subsection{Inverse Circular Trigonometric Functions}
+    \begin{align}
+        \dfrac{d\arcsin x}{dx} & = \dfrac{1}{\sqrt{1 - x^2}}, \lvert x \rvert \leq 1\\
+        \dfrac{d\arccos x}{dx} & = -\dfrac{1}{\sqrt{1 - x^2}}, \lvert x \rvert \leq 1\\
+        \dfrac{d\arctan x}{dx} & = \dfrac{1}{1 + x^2}\\
+        \dfrac{d\cot^{-1} x}{dx} & = -\dfrac{1}{1 + x^2}\\
+        \dfrac{d\sec^{-1} x}{dx} & = \dfrac{1}{x \cdot \sqrt{x^2 - 1}}, \lvert x \rvert \geq 1\\
+        \dfrac{d\csc^{-1} x}{dx} & = -\dfrac{1}{x \cdot \sqrt{x^2 - 1}}, \lvert x \rvert \geq 1
+    \end{align}
+
+    \subsection{Hyperbolic Trigonometric Function}
+    \begin{align}
+        \dfrac{d \sinh x}{dx} & = \cosh x\\
+        \dfrac{d \cosh x}{dx} & = \sinh x\\
+        \dfrac{d \tanh x}{dx} & = 1 - \tanh^2 x = sech^2 (x)\\
+        \dfrac{d \coth x}{dx} & = 1 - \coth^2 x = -csch^2 (x)\\
+        \dfrac{d[sech(x)]}{dx} & = -\tanh x \text{ sech}x\\
+        \dfrac{d[csch(x)]}{dx} & = -\coth x \text{ csch}x
+    \end{align}
+
+    \subsection{Inverse Hyperbolic Trigonometric Function}
+    \begin{align}
+        \dfrac{d\sinh x}{dx} & = \dfrac{1}{\sqrt{x^2 + 1}}\\
+        \dfrac{d\cosh x}{dx} & = \dfrac{1}{\sqrt{x^2 - 1}}\\
+        \dfrac{d\tanh x}{dx} & = \dfrac{1}{1 - x^2}\\
+        \dfrac{d\coth x}{dx} & = \dfrac{1}{1 - x^2}\\
+        \dfrac{d[\text{sech} (x)]}{dx} & = \dfrac{1}{x\sqrt{1 - x^2}}\\
+        \dfrac{d[\text{csch} (x)]}{dx} & = \dfrac{1}{\lvert x \rvert \sqrt{1 + x^2}}
+    \end{align}
+
+    \section{Rules of Differentiation}
+    \begin{align}
+        \dfrac{d[c \cdot f(x)]}{dx} & = c \cdot \dfrac{df(x)}{dx}\\
+        \dfrac{d[f_1(x) + f_2(x)]}{dx} & = \dfrac{d[f_1(x)]}{dx} + \dfrac{d[f_2(x)]}{dx} \\
+        \dfrac{d[f_1 \cdot f_2]}{dx} & = f_1 \cdot f_2' + f_2 \cdot f_1'\\
+        \dfrac{d \left(\frac{f_1}{f_2} \right)}{dx} & = \dfrac{f_2 \cdot f_1' - f_1 \cdot f_2'}{f_2^2}
+    \end{align}
+
+    \section{Chain Rule}
+    If two functions are defined as $z=f(y)$ and $y=g(x)$:
+    \begin{align}
+        \dfrac{dz}{dx} = \dfrac{dz}{dy} \cdot \dfrac{dy}{dx}
+    \end{align}
+    If two functions are defined as $x=f(\theta)$ and $y=g(\theta)$:
+    \begin{align}
+        \dfrac{d^2 y}{d x^2} = \left[ \dfrac{d}{d \theta} \left( \dfrac{\frac{d y}{d \theta}}{\frac{d x}{d \theta}} \right) \right] \dfrac{d \theta}{dx}
+    \end{align}
+\end{document}

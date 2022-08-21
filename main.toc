@@ -1,0 +1,202 @@
+\babel@toc {english}{}\relax 
+\contentsline {part}{I\hspace {1em}Algebra}{6}{part.1}%
+\contentsline {chapter}{\numberline {1}Logarithm}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Basic Formulae}{7}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Series}{7}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Complex Numbers}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Basic Formulae}{8}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Arithmetic Operation of Complex Number}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Euler's Formula}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Trigonometric Ratios in Complex Form}{9}{section.2.4}%
+\contentsline {section}{\numberline {2.5}De Moivre's Formula}{9}{section.2.5}%
+\contentsline {paragraph}{Proof}{9}{paragraph*.2}%
+\contentsline {section}{\numberline {2.6}Application of Euler's and De Moivre's Formula}{9}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Roots of Unity}{9}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Important Relations of Complex Numbers}{9}{section.2.8}%
+\contentsline {subsection}{\numberline {3.1.2}Important Relation}{10}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Geometric Progression (G.P.)}{10}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}The Value of 'r'}{10}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Sum of a G.P. Series}{10}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.5.1}Riemann Zeta Function}{11}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Riemann's Infinite Series as an Integration}{11}{subsection.3.5.2}%
+\contentsline {chapter}{\numberline {4}Test of Convergence of Infinite Series}{12}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Definition}{12}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Tests of Convergence}{12}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Comparison Test}{12}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Limit Form}{12}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Integral Test or Maclaurin-Cauchy Test}{12}{subsection.4.2.3}%
+\contentsline {paragraph}{}{13}{paragraph*.3}%
+\contentsline {subsection}{\numberline {4.2.4}Ratio Test}{13}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}D'Alembert's Ratio Test}{13}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Rabbe's Test}{13}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Cauchy's Root Test}{13}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {4.2.8}Logarithmic Test}{14}{subsection.4.2.8}%
+\contentsline {subsection}{\numberline {5.1.1}Minor and Cofactor}{15}{subsection.5.1.1}%
+\contentsline {subsubsection}{Minor}{15}{subsubsection*.4}%
+\contentsline {subsubsection}{Cofactor}{15}{subsubsection*.5}%
+\contentsline {section}{\numberline {5.2}Properties of Determinants}{15}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Cramer's Rule}{16}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Consistency Test}{16}{subsection.5.3.1}%
+\contentsline {section}{\numberline {6.2}Multiplication of Two Matrices\newline }{17}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Multiplicative Properties}{17}{subsection.6.2.1}%
+\contentsline {section}{\numberline {6.3}Adjoint of a Matrix}{17}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Martin's Rule}{18}{section.6.4}%
+\contentsline {section}{\numberline {7.4}Pascal's Rule}{19}{section.7.4}%
+\contentsline {chapter}{\numberline {8}Boolean Algebra}{20}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Remainder Theorems}{21}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Remainder Theorem}{21}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Euler's Remainder Theorem}{21}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Euler's Totient Function}{21}{subsection.9.2.1}%
+\contentsline {section}{\numberline {9.3}Wilson Theorem}{22}{section.9.3}%
+\contentsline {part}{II\hspace {1em}Co-ordinate Geometry}{24}{part.2}%
+\contentsline {chapter}{\numberline {10}2-D Co-ordinate Geometry}{25}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Distance between Two Points}{25}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Section Formula}{25}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}Corollary: Mid - Point Formula}{25}{subsection.10.2.1}%
+\contentsline {chapter}{\numberline {11}Triangles}{26}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Centroid of a Traiangle}{26}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Area of Triangle}{26}{section.11.2}%
+\contentsline {subsection}{\numberline {11.2.1}Determinant Method}{26}{subsection.11.2.1}%
+\contentsline {subsection}{\numberline {11.2.2}Heron's Formula}{26}{subsection.11.2.2}%
+\contentsline {section}{\numberline {11.3}Incircle of a Triangle}{27}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Circumcircle of a Triangle}{27}{section.11.4}%
+\contentsline {chapter}{\numberline {12}Straight Line}{28}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Equation of Straight Line Passing Through $(x_0,y_0)$ and Slope $m$}{28}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Distance Between Two Points on a Line}{28}{section.12.2}%
+\contentsline {section}{\numberline {12.3}Angle Between Two Lines}{28}{section.12.3}%
+\contentsline {section}{\numberline {12.4}Distance of a Point from a Line\newline }{29}{section.12.4}%
+\contentsline {section}{\numberline {12.5}Angle Bisector of a Line}{29}{section.12.5}%
+\contentsline {section}{\numberline {12.6}Equation of a Straight Line Passing through the Intersection of Two Lines\newline }{29}{section.12.6}%
+\contentsline {section}{\numberline {12.7}Relative Position of Points w.r.t. a Line}{29}{section.12.7}%
+\contentsline {section}{\numberline {12.8}Ratio of Division of Line Segment}{29}{section.12.8}%
+\contentsline {chapter}{\numberline {13}General Theory of Second Degree Equation}{30}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Conics}{31}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Parametric Form of Conics}{31}{section.14.1}%
+\contentsline {subsection}{\numberline {14.1.1}Hyperbola}{31}{subsection.14.1.1}%
+\contentsline {subsection}{\numberline {14.1.2}Ellipse}{31}{subsection.14.1.2}%
+\contentsline {subsection}{\numberline {14.1.3}Parabola}{31}{subsection.14.1.3}%
+\contentsline {section}{\numberline {14.2}Equation form of Conics}{31}{section.14.2}%
+\contentsline {subsection}{\numberline {14.2.1}Parabola}{31}{subsection.14.2.1}%
+\contentsline {subsection}{\numberline {14.2.2}Ellipse and Hyperbola}{32}{subsection.14.2.2}%
+\contentsline {chapter}{\numberline {15}Circles}{33}{chapter.15}%
+\contentsline {section}{\numberline {15.1}Locus Form}{33}{section.15.1}%
+\contentsline {section}{\numberline {15.2}Diameter Form}{33}{section.15.2}%
+\contentsline {section}{\numberline {15.3}General Form}{33}{section.15.3}%
+\contentsline {section}{\numberline {15.4}Important Relations}{33}{section.15.4}%
+\contentsline {section}{\numberline {15.5}Common for Two Circles}{34}{section.15.5}%
+\contentsline {chapter}{\numberline {16}Vectors}{35}{chapter.16}%
+\contentsline {section}{\numberline {16.1}Modulus of a Vector}{35}{section.16.1}%
+\contentsline {section}{\numberline {16.2}Sum of Vectors}{35}{section.16.2}%
+\contentsline {section}{\numberline {16.3}Product of Vectors}{35}{section.16.3}%
+\contentsline {subsection}{\numberline {16.3.1}Dot Product}{35}{subsection.16.3.1}%
+\contentsline {subsection}{\numberline {16.3.2}Cross Product}{35}{subsection.16.3.2}%
+\contentsline {section}{\numberline {16.4}Test of Co-planarity}{36}{section.16.4}%
+\contentsline {chapter}{\numberline {17}3D - Space}{37}{chapter.17}%
+\contentsline {section}{\numberline {17.1}Line segments in 3D - Space}{37}{section.17.1}%
+\contentsline {subsection}{\numberline {17.1.1}Distance between Two Points}{37}{subsection.17.1.1}%
+\contentsline {subsection}{\numberline {17.1.2}Section Formula of a Line Segment Divided in the ratio $m:n$}{37}{subsection.17.1.2}%
+\contentsline {section}{\numberline {17.2}Line in 3D - Space}{37}{section.17.2}%
+\contentsline {subsection}{\numberline {17.2.1}Angle between Two Lines}{37}{subsection.17.2.1}%
+\contentsline {subsection}{\numberline {17.2.2}Skew and Co-planar Lines}{38}{subsection.17.2.2}%
+\contentsline {subsection}{\numberline {17.2.3}Distance between Lines}{38}{subsection.17.2.3}%
+\contentsline {subsubsection}{The shortest distance between $r_1$ and $r_2$}{38}{subsubsection*.6}%
+\contentsline {subsubsection}{Cartesian Form}{38}{subsubsection*.7}%
+\contentsline {subsubsection}{Distance Between Parallel Lines}{38}{subsubsection*.8}%
+\contentsline {subsubsection}{Distance of a Point to a Line}{38}{subsubsection*.9}%
+\contentsline {section}{\numberline {17.3}Triangular Plane}{38}{section.17.3}%
+\contentsline {subsection}{\numberline {17.3.1}Centroid of a Triangle}{38}{subsection.17.3.1}%
+\contentsline {chapter}{\numberline {18}3D - Plane}{39}{chapter.18}%
+\contentsline {section}{\numberline {18.1}Angle Between Two Planes}{39}{section.18.1}%
+\contentsline {section}{\numberline {18.2}Distance of a Point from a Plane}{39}{section.18.2}%
+\contentsline {subsection}{\numberline {18.2.1}Catesian Form}{39}{subsection.18.2.1}%
+\contentsline {subsection}{\numberline {18.2.2}Vector Form}{40}{subsection.18.2.2}%
+\contentsline {part}{III\hspace {1em}Statistics}{41}{part.3}%
+\contentsline {chapter}{\numberline {19}Descriptive Statistics}{42}{chapter.19}%
+\contentsline {section}{\numberline {19.1}Measure of Location}{42}{section.19.1}%
+\contentsline {subsection}{\numberline {19.1.1}Mean}{42}{subsection.19.1.1}%
+\contentsline {subsection}{\numberline {19.1.2}Median}{42}{subsection.19.1.2}%
+\contentsline {subsection}{\numberline {19.1.3}Mode}{42}{subsection.19.1.3}%
+\contentsline {subsection}{\numberline {19.1.4}Quartile}{42}{subsection.19.1.4}%
+\contentsline {section}{\numberline {19.2}Measure of Spread}{42}{section.19.2}%
+\contentsline {subsection}{\numberline {19.2.1}Variance}{42}{subsection.19.2.1}%
+\contentsline {subsection}{\numberline {19.2.2}Sample Variance}{43}{subsection.19.2.2}%
+\contentsline {subsection}{\numberline {19.2.3}Standard Deviation and Sample Standard}{43}{subsection.19.2.3}%
+\contentsline {subsection}{\numberline {19.2.4}Co-efficient of Variance}{43}{subsection.19.2.4}%
+\contentsline {section}{\numberline {19.3}Skewness}{43}{section.19.3}%
+\contentsline {subsection}{\numberline {19.3.1}Types of Skewness}{43}{subsection.19.3.1}%
+\contentsline {subsection}{\numberline {19.3.2}Measure of Skewness}{43}{subsection.19.3.2}%
+\contentsline {subsubsection}{Type of Skewness}{43}{subsubsection*.10}%
+\contentsline {subsubsection}{Degree of Skewness}{44}{subsubsection*.11}%
+\contentsline {section}{\numberline {19.4}Kurtosis}{44}{section.19.4}%
+\contentsline {subsection}{\numberline {19.4.1}Type of Kurtosis}{44}{subsection.19.4.1}%
+\contentsline {chapter}{\numberline {20}Hypothesis Testing}{45}{chapter.20}%
+\contentsline {section}{\numberline {20.1}T-Test}{45}{section.20.1}%
+\contentsline {section}{\numberline {20.2}$\chi ^2$ Test}{45}{section.20.2}%
+\contentsline {chapter}{\numberline {21}Research and Survey Design}{46}{chapter.21}%
+\contentsline {section}{\numberline {21.1}Population Covariance}{46}{section.21.1}%
+\contentsline {section}{\numberline {21.2}Sample Covariance}{46}{section.21.2}%
+\contentsline {section}{\numberline {21.3}Bravais-Pearson Correlation Co-efficient}{46}{section.21.3}%
+\contentsline {section}{\numberline {21.4}Spearman's Rank Correlation Co-efficient}{46}{section.21.4}%
+\contentsline {chapter}{\numberline {22}Estimation of Regression Function}{47}{chapter.22}%
+\contentsline {section}{\numberline {22.1}Sum of Squares Error}{48}{section.22.1}%
+\contentsline {subsection}{\numberline {22.1.1}$R^2$: Coefficient of Determination}{48}{subsection.22.1.1}%
+\contentsline {subsection}{\numberline {22.1.2}$\bar {R^2}$: Coefficient of Determination}{49}{subsection.22.1.2}%
+\contentsline {section}{\numberline {22.2}T-Test}{49}{section.22.2}%
+\contentsline {section}{\numberline {22.3}F-Test}{49}{section.22.3}%
+\contentsline {section}{\numberline {22.4}Test for Heteroskedasticity}{49}{section.22.4}%
+\contentsline {subsection}{\numberline {22.4.1}Definition}{49}{subsection.22.4.1}%
+\contentsline {subsection}{\numberline {22.4.2}Durbin-Watson Test}{49}{subsection.22.4.2}%
+\contentsline {chapter}{\numberline {23}Dummy Variables}{50}{chapter.23}%
+\contentsline {section}{\numberline {23.1}Dummy Variable}{50}{section.23.1}%
+\contentsline {section}{\numberline {23.2}Slope Dummy Variable}{50}{section.23.2}%
+\contentsline {section}{\numberline {23.3}Slope \& Dummy Variable}{51}{section.23.3}%
+\contentsline {section}{\numberline {23.4}Multi-Categories Dummy Variable}{52}{section.23.4}%
+\contentsline {subsubsection}{Alternatives}{52}{subsubsection*.18}%
+\contentsline {chapter}{\numberline {24}Logistic Regression}{53}{chapter.24}%
+\contentsline {part}{IV\hspace {1em}Trigonometry}{54}{part.4}%
+\contentsline {chapter}{\numberline {25}Circular Trigonometric Functions}{55}{chapter.25}%
+\contentsline {section}{\numberline {25.1}Trigonometric Ratios of Standard Angles}{55}{section.25.1}%
+\contentsline {section}{\numberline {25.2}Negative Angle Formula}{55}{section.25.2}%
+\contentsline {section}{\numberline {25.3}Sum of Angles Formula}{56}{section.25.3}%
+\contentsline {section}{\numberline {25.4}Difference of Angles Formula}{56}{section.25.4}%
+\contentsline {section}{\numberline {25.5}Multiples and Sub-multiples of $\pi $ and $\frac {\pi }{2}$}{56}{section.25.5}%
+\contentsline {section}{\numberline {25.6}$\left (\frac {\pi }{2}\pm \theta \right )$ Formula}{57}{section.25.6}%
+\contentsline {section}{\numberline {25.7}$\left (\frac {\pi }{4}\pm \theta \right )$ Formula}{57}{section.25.7}%
+\contentsline {section}{\numberline {25.8}Trigonometric Identities}{57}{section.25.8}%
+\contentsline {section}{\numberline {25.9}Double Angle Formula}{58}{section.25.9}%
+\contentsline {section}{\numberline {25.10}Triple Angle Formula}{58}{section.25.10}%
+\contentsline {section}{\numberline {25.11}Sum and Product of Two Ratios}{58}{section.25.11}%
+\contentsline {section}{\numberline {25.12}General Solutions}{59}{section.25.12}%
+\contentsline {section}{\numberline {25.13}Taylor Series Expansion of Trigonometric Ratios}{59}{section.25.13}%
+\contentsline {chapter}{\numberline {26}Inverse Circular Trigonometric Function}{60}{chapter.26}%
+\contentsline {section}{\numberline {26.1}Definition of Inverse Circular Trigonometric Function}{60}{section.26.1}%
+\contentsline {subsection}{\numberline {26.1.1}For $\sin x$}{60}{subsection.26.1.1}%
+\contentsline {subsection}{\numberline {26.1.2}For $\cos x$}{60}{subsection.26.1.2}%
+\contentsline {subsection}{\numberline {26.1.3}For $\tan x$}{60}{subsection.26.1.3}%
+\contentsline {subsection}{\numberline {26.1.4}For $\cot x$}{61}{subsection.26.1.4}%
+\contentsline {subsubsection}{For $\sec x$}{61}{subsubsection*.19}%
+\contentsline {subsection}{\numberline {26.1.5}For $\csc x$}{61}{subsection.26.1.5}%
+\contentsline {section}{\numberline {26.2}Negative Arguments}{61}{section.26.2}%
+\contentsline {section}{\numberline {26.3}Reciprocal Relations}{62}{section.26.3}%
+\contentsline {section}{\numberline {26.4}I.T.F. Identities}{62}{section.26.4}%
+\contentsline {section}{\numberline {26.5}Sum of Two Angles}{62}{section.26.5}%
+\contentsline {section}{\numberline {26.6}Difference of Two Angles}{62}{section.26.6}%
+\contentsline {section}{\numberline {26.7}Interconversion of Ratios}{62}{section.26.7}%
+\contentsline {section}{\numberline {26.8}Miscellaneous Relations}{63}{section.26.8}%
+\contentsline {chapter}{\numberline {27}Hyperbolic Trigonometric Functions}{64}{chapter.27}%
+\contentsline {section}{\numberline {27.1}Definition}{64}{section.27.1}%
+\contentsline {section}{\numberline {27.2}Identities}{64}{section.27.2}%
+\contentsline {section}{\numberline {27.3}Inverse Hyperbolic Function}{65}{section.27.3}%
+\contentsline {section}{\numberline {27.4}Relation to Circular Trigonometric Functions}{65}{section.27.4}%
+\contentsline {part}{V\hspace {1em}Calculus}{66}{part.5}%
+\contentsline {chapter}{\numberline {28}Limits}{67}{chapter.28}%
+\contentsline {section}{\numberline {28.1}L'Hospital Rule}{67}{section.28.1}%
+\contentsline {chapter}{\numberline {29}Differentiation}{69}{chapter.29}%
+\contentsline {section}{\numberline {29.1}Differentiation by First Principle}{69}{section.29.1}%
+\contentsline {section}{\numberline {29.2}Standard Differentiation Formulae}{69}{section.29.2}%
+\contentsline {subsection}{\numberline {29.2.1}Circular Trigonometric Functions}{70}{subsection.29.2.1}%
+\contentsline {subsection}{\numberline {29.2.2}Inverse Circular Trigonometric Functions}{70}{subsection.29.2.2}%
+\contentsline {subsection}{\numberline {29.2.3}Hyperbolic Trigonometric Function}{70}{subsection.29.2.3}%
+\contentsline {subsection}{\numberline {29.2.4}Inverse Hyperbolic Trigonometric Function}{71}{subsection.29.2.4}%
+\contentsline {section}{\numberline {29.3}Rules of Differentiation}{71}{section.29.3}%
+\contentsline {section}{\numberline {29.4}Chain Rule}{71}{section.29.4}%

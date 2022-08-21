@@ -1,6 +1,6 @@
 \documentclass[openany, oneside]{book}
 
-%Packages Used-----------------------------------------------------
+% Packages Used -----------------------------------------------------
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{pgfplots}
@@ -13,8 +13,9 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{pgfplots}
 \usepackage{gensymb}
-%End of Packages Used----------------------------------------------
+\usepackage{cuted}
 
+% Preamble ----------------------------------------------
 \title{A Book of High School and Engineering Common Core Mathematical Formulae}
 \date{December, 2020}
 \author{Agnij Mallick}
@@ -23,6 +24,8 @@
 \fancyhf{}
 \lhead{\nouppercase\leftmark}
 \cfoot{\thepage}
+\setlength{\columnsep}{50pt}
+\setlength{\columnseprule}{0.25pt}
 
 \titleformat{\part}[frame]{\Huge}{Part \thepart}{15pt}{\centering}
 \titleformat{\chapter}[frame]{\Large}{Chapter \thechapter}{15pt}{\centering}
@@ -69,4 +72,9 @@
 	\part{Trigonometry}
 		\subfile{chapters/trig/circ_trig_f.tex}
 		\subfile{chapters/trig/inv_circ_func.tex}
+		\subfile{chapters/trig/hyp_trig.tex}
+
+	\part{Calculus}
+		\subfile{chapters/calculus/limits.tex}
+		\subfile{chapters/calculus/differentiation.tex}
 \end{document}

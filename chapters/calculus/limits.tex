@@ -1,0 +1,31 @@
+\documentclass[../main.tex]{subfile}
+\begin{document}
+    \chapter{Limits}
+    \begin{align}
+            & \lim_{x \to 0} \dfrac{\sin x}{x} = 1\\
+            & \lim_{x \to 0} \dfrac{\tan x}{x} = 1\\
+            &\lim_{x\to0} \cos x = 1\\
+            & \lim_{x \to a} \dfrac{x^n - a^n}{x - a} = na^{n - 1}\\
+            & \lim_{x \to a} f(x) g(x) = \lim_{x \to a} f(x) \cdot \lim_{x \to a} g(x)\\
+            & \lim_{x \to a} \dfrac{f(x)}{g(x)} = \dfrac{\lim_{x \to a} f(x)} {\lim_{x \to a} g(x)}, \lim_{x \to a} g(x) \neq 0\\
+            & \lim_{x \to 0} \exp(x) = 1\\
+            & \lim_{x \to a} \exp(x) = \exp(c)\\
+            & \lim_{x \to 0} \dfrac{\exp(x) - 1}{x} = 1\\
+            & \lim_{x \to a} c^x = c^a\\
+            & \lim_{x \to a} \ln x = \ln a\\
+            & \lim_{x \to 0} (1 + x)^{\frac{1}{x}} = e\\
+            & \lim_{x \to 0} \dfrac{\ln (1 + x)}{x} = 1\\
+            & \lim_{x \to 0} \dfrac{a^x - 1}{x} = \ln a\\
+            & \lim_{n \to \infty} \dfrac{x^n}{n!} = 0, \forall x \in \mathbb{R}
+        \end{align}
+        
+        \section{L'Hospital Rule}
+        If:
+        \begin{align}
+            L = \lim_{x \to a} \dfrac{f(x)}{g(x)} \nonumber
+        \end{align}
+        is such that $f(a) = 0$ and $g(a) = 0$, or $f(a) = \infty$ and $g(a) = \infty$, then:
+        \begin{align}
+            L = \lim_{x \to a} \dfrac{f'(x)}{g'(x)} \nonumber
+        \end{align}
+\end{document}
