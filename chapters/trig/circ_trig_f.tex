@@ -1,0 +1,148 @@
+\documentclass[../main.tex]{subfile}
+\begin{document}
+    \chapter{Circular Trigonometric Functions}
+
+        \section{Trigonometric Ratios of Standard Angles}
+        \begin{table}[h!]
+            \centering
+            \caption{Trigonometric Ratios of Standard Angles}
+            \begin{tabular}{c|ccc}
+                $\theta$ & $\sin \theta$ & $\cos \theta$ & $\tan \theta$ \\
+                \hline
+                $0 \degree$ & $0$ & $1$ & $0$ \\
+                $15 \degree$ & $\frac{1}{4}$ & $\frac{1}{4(2-\sqrt{3})}$ & $2-\sqrt{3}$\\
+                $18 \degree$ & $\frac{\sqrt{5}-1}{4}$ & $\frac{\sqrt{10+2\sqrt{5}}}{4}$ & $\frac{\sqrt{5}-1}{\sqrt{10+2\sqrt{5}}}$ \\
+                $30 \degree$ & $\frac{1}{2}$ & $\frac{\sqrt{3}}{2}$ & $\frac{1}{\sqrt{3}}$\\
+                $36 \degree$ & $\frac{\sqrt{5}+1}{4}$ & $\frac{\sqrt{10-2\sqrt{5}}}{4}$ & $\frac{\sqrt{5}+1}{\sqrt{10-2\sqrt{5}}}$ \\
+                $45 \degree$ & $\frac{1}{\sqrt{2}}$ & $\frac{1}{\sqrt{2}}$ & $1$ \\
+                $60 \degree$ & $\frac{1}{\sqrt{3}}$ & $\frac{1}{2}$ & $\sqrt{3}$ \\
+                $72 \degree$ & $\frac{\sqrt{10+2\sqrt{5}}}{4}$ & $\frac{\sqrt{5}-1}{4}$ & $\frac{\sqrt{10+2\sqrt{5}}}{\sqrt{5}-1}$ \\
+                $90 \degree$ & $1$ & $0$ & $\infty$ \\
+                \hline
+            \end{tabular}
+        \end{table}
+        
+        For any given triangle:
+        \begin{align}
+        \dfrac{a}{\sin A} = \dfrac{b}{\sin B} = \dfrac{c}{\sin C} = 2R
+        \end{align}, where $R$ is the radius of circumcircle. Refer to \ref{circ_trig}.
+        
+        \section{Negative Angle Formula}
+        \begin{align}
+            \sin (-\theta) & = -\sin \theta\\
+            \cos (-\theta) & = \cos \theta\\
+            \tan (-\theta) & = -\tan \theta\\
+            \csc (-\theta) & = -\csc \theta\\
+            \sec (-\theta) & = \sec \theta\\
+            \cot (-\theta) & = -\cot \theta
+        \end{align}
+        
+        \section{Sum of Angles Formula}
+        \begin{align}
+            \sin (A+B) & = \sin A\cos B + \cos A\sin B\\
+            \cos (A+B) & = \cos A\cos B - \sin A\sin B\\
+            \tan (A+B) & = \dfrac{\tan A + \tan B}{1 - \tan A\tan B}
+        \end{align}
+        
+        \section{Difference of Angles Formula}
+        \begin{align}
+            \sin (A - B) & = \sin A \cos B - \cos A \sin B\\
+            \cos (A - B) & = \cos A \cos B + \sin A  \sin B\\
+            \tan (A - B) & = \dfrac{\tan A - \tan B}{1 + \tan A \tan B}
+        \end{align}
+        
+        \section{Multiples and Sub-multiples of $\pi$ and $\frac{\pi}{2}$}
+        \begin{align}
+            \forall k \in \mathbb{Z} \nonumber\\
+            \sin \left[ (4k+1) \dfrac{\pi}{2} \right] & = 1\\
+            \sin \left[ (4k-1) \dfrac{\pi}{2} \right] & = -1\\
+            \sin k\pi & = 0\\
+            \sin \left[ (2k+1) \dfrac{\pi}{2} \right] & = 0\\
+            \sin \left[ (2k-1) \dfrac{\pi}{2} \right] & = 0\\
+            \sin k\pi = (-1)^k
+        \end{align}
+        
+        \section{$\left(\frac{\pi}{2}\pm\theta\right)$ Formula}
+        \begin{align}
+            \sin \left( \dfrac{\pi}{2} - \theta \right) & = \cos \theta\\
+            \sin \left( \dfrac{\pi}{2} + \theta \right) & = \cos \theta\\
+            \cos \left( \dfrac{\pi}{2} - \theta\right) & = \sin \theta\\
+            \cos \left( \dfrac{\pi}{2} + \theta\right) & = - \sin \theta\\
+            \tan \left( \dfrac{\pi}{2} - \theta \right) & = \cot \theta\\
+            \tan \left( \dfrac{\pi}{2} + \theta \right) & = - \cot \theta\\
+            \cot \left( \dfrac{\pi}{2} - \theta\right) & = \tan \theta\\
+            \cot \left( \dfrac{\pi}{2} + \theta\right) & = -\tan \theta\\
+            \csc \left( \dfrac{\pi}{2} - \theta\right) & = \sec \theta\\
+            \csc \left( \dfrac{\pi}{2} + \theta\right) & = \sec \theta\\
+            \sec \left( \dfrac{\pi}{2} - \theta\right) & = \csc \theta\\
+            \sec \left( \dfrac{\pi}{2} + \theta\right) & = - \csc \theta
+        \end{align}
+        
+        \section{$\left(\frac{\pi}{4}\pm\theta\right)$ Formula}
+        \begin{align}
+            \tan \left( \frac{\pi}{4} + \theta \right) = \dfrac{1 + \tan \theta}{1 - \tan \theta}\\
+            \tan \left( \frac{\pi}{4} - \theta \right) = \dfrac{1 - \tan \theta}{1 + \tan \theta}
+        \end{align}
+        
+        \section{Trigonometric Identities}
+        \begin{align}
+            \sin^2 \theta+\cos^2 \theta & = 1\\
+            \tan^2 \theta+1 & = \sec^2 \theta\\
+            \cot^2 \theta+1 & = \csc^2 \theta
+        \end{align}
+        
+        \section{Double Angle Formula}
+        \begin{align}
+            \sin 2\theta & = 2\sin \theta \cos \theta\\
+            & = \dfrac{2 \tan \theta}{1+\tan^2 \theta}\\
+            \cos 2\theta & = \cos^2 \theta -\sin^2 \theta\\
+            & = 2 \cos^2 \theta - 1\\
+            & = 1 - 2 \sin^2 \theta\\
+            & = \dfrac{1 - \tan^2 \theta}{1 + \tan^2 \theta}\\
+            \tan 2 \theta & = \dfrac{2 \tan \theta}{1 - \tan^2 \theta}
+        \end{align}
+        
+        \section{Triple Angle Formula}
+        \begin{align}
+        \sin 3\theta & = 3\sin \theta - 4 \sin^3 \theta\\
+        \cos 3\theta & = 4\cos^3 \theta - 3 \cos \theta\\
+        \tan 3\theta & = \dfrac{3\tan \theta - \tan^3 \theta}{1-3\tan^3 \theta}
+        \end{align}
+        
+        \section{Sum and Product of Two Ratios}
+        For $A>B$:
+        \begin{align}
+            \sin A + \sin B & = 2 \sin \left( \frac{A + B}{2} \right) \cos \left( \frac{A - B}{2} \right)\\
+            \sin A - \sin B & = 2 \cos \left( \frac{A + B}{2} \right) \sin \left( \frac{A - B}{2} \right)\\
+            2 \sin A \cos B & = \sin(A + B) + \sin(A - B)\\
+            2 \cos A \sin B & = \sin(A + B) - \sin(A - B)\\
+            \cos A + \cos B & = 2 \cos \left( \frac{A + B}{2} \right) \cos \left( \frac{A - B}{2} \right)\\
+            \cos A - \cos B & = - 2 \sin \left( \frac{A + B}{2} \right) \sin \left( \frac{A - B}{2} \right)\\
+            2 \cos A\cos B & = \cos (A+B)+\cos (A-B)\\
+            2 \cos A\sin B & = \cos (A+B)-\cos (A-B)\\
+            \sin (A-B)\sin(A+B) & = \sin^2 A-\sin^2 B\\
+            \cos (A-B)\cos(A+B) & = \cos^2 A-\sin^2 B\\
+            \tan (A-B)\tan(A+B) & = \dfrac{\tan^2 A - \tan^2 B}{1-\tan^2 A\tan^2 B}
+        \end{align}
+        
+        \section{General Solutions}
+        If $\sin \theta=\sin \alpha$:
+        \begin{align}
+        \theta=n\pi+(-1)^n\alpha
+        \end{align}$n\in\mathbb{Z}$\newline
+        If $\cos \theta=\cos \alpha$:
+        \begin{align}
+        \theta=2n\pi\pm\alpha
+        \end{align}$n\in\mathbb{Z}$\newline
+        If $\tan \theta=\tan \alpha$:
+        \begin{align}
+        \theta=n\pi\pm\alpha
+        \end{align}$n\in\mathbb{Z}$
+        
+        \section{Taylor Series Expansion of Trigonometric Ratios}
+        \begin{align}
+            \sin x=x-\dfrac{x^3}{3!}+\dfrac{x^5}{5!}-\cdots\infty & = \sum_{i=1}^\infty (-1)^{i+1}\dfrac{x^{2i-1}}{(2i-1)!}\\
+            \cos x=1-\dfrac{x^2}{2!}+\dfrac{x^4}{4!}-\cdots\infty & = \sum_{i=0}^\infty (-1)^i\dfrac{x^{2i}}{(2i)!}
+        \end{align} 
+    
+\end{document}

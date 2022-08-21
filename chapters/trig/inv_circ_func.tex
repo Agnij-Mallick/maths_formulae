@@ -1,0 +1,127 @@
+\documentclass[../main.tex]{subfile}
+\begin{document}
+    \chapter{Inverse Circular Trigonometric Function}
+    \section{Definition of Inverse Circular Trigonometric Function}
+    \subsection{For $\sin x$}
+        	$y=\arcsin x$ iff $x=\sin y$, then:
+    \begin{enumerate}
+        \item $y \in [-\frac{\pi}{2},\frac{\pi}{2}]$
+        \item domain of $x \in [-1,1]$
+        \item $\sin(\arcsin x)=x,\forall x\in[-1,1]$
+        \item $\arcsin(\sin y)=y, \forall y\in [-\frac{\pi}{2},\frac{\pi}{2}]$
+        \item $\sin x$ is a strictly increasing in the domain $[-\frac{\pi}{2},\frac{\pi}{2}]$ and one-one.
+    \end{enumerate}
+
+    \subsection{For $\cos x$}
+        $y=\arccos x$ iff $x=\cos y$, then:
+    \begin{enumerate}
+        \item $y \in [0,\pi]$
+        \item domain of $x \in [-1,1]$
+        \item $\cos(\arccos x)=x,\forall x\in[-1,1]$
+        \item $\arccos(\cos y)=y, \forall y\in [0,\pi]$
+        \item $\cos x$ is a strictly decreasing in the domain $[0,\pi]$ and one-one.
+    \end{enumerate}
+
+    \subsection{For $\tan x$}
+        $y=\arctan x$ iff $x=\tan y$, then:
+    \begin{enumerate}
+        \item $y \in [-\frac{\pi}{2},\frac{\pi}{2}]$
+        \item domain of $x \in \mathbb{R}$
+        \item $\tan(\arctan x)=x,\forall x\in\mathbb{R}$
+        \item $\arctan(\tan y)=y, \forall y\in [-\frac{\pi}{2},\frac{\pi}{2}]$
+        \item $\tan x$ is a strictly increasing in the domain $[-\frac{\pi}{2},\frac{\pi}{2}]$ and one-one.
+    \end{enumerate}
+
+    \subsection{For $\cot x$}
+        $y=\cot^{-1} x$ iff $x=\cot y$, then:
+    \begin{enumerate}
+        \item $y \in (0,\pi)$
+        \item domain of $x \in \mathbb{R}$
+        \item $\cot(\cot^{-1} x)=x,\forall x\in\mathbb{R}$
+        \item $\cot^{-1}(\cot y)=y, \forall y\in (0,\pi)$
+        \item $\cot x$ is a strictly decreasing in the domain $(0,\pi)$ and one-one.
+    \end{enumerate}
+
+    \subsubsection{For $\sec x$}
+        $y=\sec^{-1} x$ iff $x=\sec y$
+    \begin{enumerate}
+        \item $y\in\left\lbrace [0,\frac{\pi}{2})\cup(\frac{\pi}{2},\pi]\right\rbrace$
+        \item $x\in\left\lbrace(-\infty,-1]\cup[1,\infty)\right\rbrace$
+        \item $\sec(\sec^{-1}x)=x,\forall \lvert x \rvert \geq 1$
+        \item $\sec^{-1}(\sec y)=y, \forall y \in \left\lbrace [0,\frac{\pi}{2})\cup(\frac{\pi}{2},\pi]\right\rbrace$
+    \end{enumerate}
+
+    \subsection{For $\csc x$}
+        $y=\csc^{-1} x$ iff $x=\csc y$
+    \begin{enumerate}
+        \item $y\in\left\lbrace [-\frac{\pi}{2},0)\cup(0,\frac{\pi}{2}]\right\rbrace$
+        \item $x\in\left\lbrace(-\infty,-1]\cup[1,\infty)\right\rbrace$
+        \item $\csc(\csc^{-1}x)=x,\forall \lvert x \rvert \geq 1$
+        \item $\csc^{-1}(\csc y)=y, \forall y \in \left\lbrace [-\frac{\pi}{2},0)\cup(0,\frac{\pi}{2}]\right\rbrace$
+    \end{enumerate}
+
+    \section{Negative Arguments}
+    \begin{align}
+        \arcsin (-x) & = -\arcsin x\\
+        \arctan (-x) & = -\arctan x\\
+        \csc^{-1} (-x) & = -\csc^{-1} x\\
+        \arccos (-x) & = \pi - \arccos x\\
+        \cot^{-1} (-x) & = \pi - \cot^{-1} x\\
+        \sec^{-1} (-x) & = \pi - \sec^{-1} x
+    \end{align}
+
+    \section{Reciprocal Relations}
+    \begin{align}
+        \csc^{-1} x & = \arcsin \dfrac{1}{x}\\
+        \sec^{-1} x & = \arccos \dfrac{1}{x}\\
+        \sec^{-1} x & = \begin{cases}
+                            \arctan \dfrac{1}{x}, x>0\\
+                            \pi+\arctan \dfrac{1}{x}, x<0
+                        \end{cases}
+    \end{align}
+
+    \section{I.T.F. Identities}
+    \begin{align}
+        \arcsin x + \arccos x & = \dfrac{\pi}{2} &, \lvert x \rvert \leq 1\\
+        \arctan x + \cot^{-1} x & = \dfrac{\pi}{2} &, x\in\mathbb{R}\\
+        \sec^{-1} x + \csc^{-1} x & = \dfrac{\pi}{2} &, \lvert x \rvert \geq 1
+    \end{align}
+
+    \section{Sum of Two Angles}
+    \begin{align}
+        \arctan x + \arctan y & = \arctan \left(\dfrac{x + y}{1 - xy} \right)\\
+        \arcsin x + \arcsin y & = \arcsin \left( y \sqrt{1-x^2} + x\ sqrt{1-y^2} \right)\\
+        \arccos x + \arccos y & = \arccos \left( xy - \sqrt{1-x^2} \sqrt{1-y^2} \right)
+    \end{align}
+
+    \section{Difference of Two Angles}
+    \begin{align}
+        \arctan x - \arctan y & = \arctan \left( \dfrac{x - y}{1 + xy} \right)\\
+        \arcsin x - \arcsin y & = \arcsin \left( x \sqrt{1 - y^2} - y \sqrt{1 - x^2} \right)\\
+        \arccos x - \arccos y & = \arccos \left( xy + \sqrt{1 - x^2} \sqrt{1 - y^2} \right)
+    \end{align}
+
+    \section{Interconversion of Ratios}
+    \begin{align}
+        \arcsin x & = \arccos \sqrt{1-x^2}\\
+                  & = \arctan \left(\dfrac{x}{\sqrt{1-x^2}}\right)
+    \end{align}
+
+    \begin{align}
+        \arccos x & = \arcsin \sqrt{1-x^2}\\
+                  & = \arctan \left(\dfrac{\sqrt{1-x^2}}{x}\right)
+    \end{align}
+
+    \begin{align}
+        2\arctan x & = \arcsin\left(\dfrac{2x}{1+x^2}\right)\\
+                   & = \arccos \left(\dfrac{1-x^2}{1+x^2}\right)\\
+                   & = \arctan \left(\dfrac{2x}{1-x^2}\right)
+    \end{align}
+    
+    \section{Miscellaneous Relations}
+    \begin{align}
+        \cos(\arcsin x) & = \sin(\arccos x) = \sqrt{1 - x^2}\\
+        \arctan x & = \frac{\pi}{2} - \arctan \left( \frac{1}{x} \right), x>1
+    \end{align}
+    
+\end{document}
