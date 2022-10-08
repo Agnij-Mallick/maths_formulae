@@ -1,0 +1,171 @@
+\documentclass[../main.tex]{subfile}
+\begin{document}
+    \chapter{Application of Differential}
+    \section{Rolle's Theorem}
+    For a function $f(x)$:
+    \begin{enumerate}
+        \item is continuous in $[a,b]$
+        \item is differentiable in $(a,b)$
+        \item $f(a)=f(b)$,
+    \end{enumerate}
+    then there exists a point $x=c$ such that $f'(c)=0$, $c\in(a,b)$
+
+    \section{Mean Value Theorem or LaGrange's Theorem}
+    For a function $f(x)$:
+    \begin{enumerate}
+        \item is continuous in $[a,b]$
+        \item is differentiable in $(a,b)$,
+    \end{enumerate}
+    then there exists a point $x=c$ such that $f'(c)=\dfrac{f(b)-f(a)}{b-a}$, $c\in(a,b)$, i.e., the tangent is parallel to the line joining the the points $(a,f(a))$ and $(b,f(b))$.
+
+    \section{Cauchy's Mean Value Theorem}
+    For a function $f(x)$ and $g(x)$:
+    \begin{enumerate}
+        \item are continuous in $[a,b]$
+        \item are differentiable in $(a,b)$
+        \item $g'(x)\neq 0$ in $(a,b)$,
+    \end{enumerate}
+    then there exists a point $c\in(a,b)$, such that $\dfrac{f(x)}{g(x)}=\dfrac{f(b)-f(a)}{g(b)-g(a)}$.
+
+    \section{Maxima and Minima}
+    \subsection{Maxima}
+    For the local maxima of a function $f(x)$:
+    \begin{enumerate}
+        \item $f'(c)=0$ and
+        \begin{align}
+        \lim_{\epsilon\to c^{-}} f'(\epsilon)>0\nonumber\\
+        \lim_{\epsilon\to c^{+}} f'(\epsilon)<0\nonumber
+        \end{align}
+    \begin{center}
+    OR
+    \end{center}
+        \item $f'(c)=0$ and $f''(x)<0$,
+    \end{enumerate}
+    then $f(c)$ is the local maxima point of the function $f(x)$.
+
+    \subsection{Minima}
+    For the local minima of a function $f(x)$:
+    \begin{enumerate}
+        \item $f'(c)=0$ and
+    \begin{align}
+        \lim_{\epsilon\to c^{-}} f'(\epsilon)<0\nonumber\\
+        \lim_{\epsilon\to c^{+}} f'(\epsilon)>0\nonumber
+    \end{align}
+    \begin{center}
+    OR
+    \end{center}
+        \item $f'(c)=0$ and $f''(x)>0$,
+    \end{enumerate}
+    then $f(c)$ is the local minima point of the function $f(x)$.
+
+    \section{Taylor's Theorem}
+    For a function which is differentiable $n$ times:
+    \begin{align}
+            f(a + h) = f(a) + h \cdot f'(a) + \dfrac{h^2}{2!} \cdot f''(a) + \cdots + \dfrac{h^{n-1}}{(n-1)!} \cdot f^{n - 1}(a) + \dfrac{h^n}{x!} \cdot R_n
+    \end{align}
+    where $R_n$ is the remainder term.
+    \subsection{Remainder Term}
+        \subsubsection{LeGrange's Form}
+            \begin{align}
+            R_n=f^n (a+\theta h), \theta \in (0,1)
+            \end{align}
+        \subsubsection{Cauchy's Form}
+            \begin{align}
+            R_n=n(1-\theta)^{n-1}f^n(a+\theta h), \theta \in (0,1)
+            \end{align}
+
+    \subsection{Conditions for Validity of Expansion}
+    For validity of Taylor Expansion,the condition
+        \begin{align}
+        \lim_{n\to\infty} R_n=0
+        \end{align}
+    needs to be satisfied either where $R_n$ is the remainder term in either LeGrange's Form or Cauchy's Form. If the condition is satisfied in a certain domain, then the expansion is valid within that domain only.
+
+    \subsection{Taylor's Theorem for Two Variables}
+    \begin{align}
+        & f(a + x,b + y) = f(x,y) + \left( a \dfrac{\partial}{\partial x} + b \dfrac{\partial}{\partial y} \right) f (x,y) + \dfrac{1}{2!} \left( a^2 \dfrac{\partial^2}{\partial x^2}+b^2\dfrac{\partial^2}{\partial y^2} \right) f(x,y) + \cdots + \nonumber \\
+        & \dfrac{1}{n!} \left( a^n \dfrac{\partial^n}{\partial x^n} + b^n \dfrac{\partial^n}{\partial y^n} \right) f(x + \theta a, y + \theta b), \theta \in (0,1) 
+    \end{align}
+
+    \section{Maclaurin's Series}
+    \begin{align}
+        f(x) = & f(0) + xf'(0) + \dfrac{1}{2!} x^2 f''(0) + \dfrac{1}{3!} x^3 f'''(0) + \cdots\infty\\
+             = & \sum_{i=0}^\infty \dfrac{1}{i!} x^i f^i(0)
+    \end{align}
+    
+    \subsection{Maclaurin's Series with Two Variables}
+    \begin{align}
+    f(a,b) = & f(0,0) + \left( a \dfrac{\delta}{\delta x} + b \dfrac{\delta}{\delta x} \right) f(0,0) + \dfrac{1}{2!} \left( a^2 \dfrac{\delta^2}{\delta x^2} + b^2 \dfrac{\delta^2}{\delta x^2} \right) f(0,0) + \cdots\infty&\\
+           = & \sum_{i=0}^\infty \dfrac{1}{n!} \left( a^i \dfrac{\delta^i}{\delta x^i} + b^i \dfrac{\delta^i}{\delta x^i} \right) f(0,0)
+    \end{align}
+
+    \section{Curvature}
+    Curvature is the rate of change of direction w.r.t. arc. Mathematically:
+    \begin{align}
+        \text{Curvature} = & \dfrac{d(\text{direction})}{d(\text{arc})}\\
+        \lim_{\Delta s \to 0} \dfrac{\Delta \psi}{\Delta s} = & \dfrac{d\psi}{ds}
+    \end{align}
+
+    \subsection{Radius of Curvature}
+    \subsubsection{Cartesian Form}
+    For a curve $y=f(x)$:
+    \begin{align}
+        \rho=\dfrac{(1+y'^2)^{\frac{3}{2}}}{y''}
+    \end{align}
+    However, this formula fails for $y'\to\infty$.
+    \subsubsection{Parametric Form}
+    For a curve defined as $x=\phi(t)$ and $y=\psi(t)$:
+    \begin{align}
+        \rho=\dfrac{(\ddot{x}^2+\ddot{y}^2)^{\frac{3}{2}}}{x\ddot{y}-y\ddot{x}}
+    \end{align}
+
+    \subsection{Newton's Formula}
+    \begin{enumerate}
+    \item If the curve passes through origin, and the tangent at origin is the x-axis:
+        \begin{align}
+            \rho=\lim_{^{x\to0}_{y\to0}} \dfrac{x^2}{2y}
+        \end{align}
+    \item If the curve passes through origin, and the tangent at origin is the y-axis:
+        \begin{align}
+            \rho=\lim_{^{x\to0}_{y\to0}} \dfrac{y^2}{2x}
+        \end{align}
+    \item If the curve passes through origin and $ax+by+c=0$ is the tangent at origin:
+        \begin{align}
+            \rho(0,0)=\dfrac{1}{2}\sqrt{a^2+b^2} \lim_{^{x\to0}_{y\to0}} \dfrac{a^2+y^2}{ax+by}
+        \end{align}
+    \end{enumerate}
+
+    \subsection{Tangent at Origin}
+    For a curve
+    \begin{align}
+        \sum c_i x^j y^k = 0, i \in \mathbb{N} \text{ and } j, k \in \mathbb{Z} - \lbrace 0 \rbrace
+    \end{align}
+    The curve passes through origin $c = 0$. Then the lowest degree term equated to $x$ gives the tangent at origin.
+
+    \section{Asymptotes}
+    If the distance between a line $P$ and a curve $f(x)$, $s$ is such that $s\to0$, as $x\to\infty$, then $P$ is the asymptote of $f(x)$. For asymptotes not parallel to x-axis:\newline
+    Let $y=mx+c$ be the asymptote of the function $y=f(x)$, then:
+    \begin{align}
+        m=\lim_{x\to\infty} \dfrac{y}{x}\\
+        c=\lim_{x\to\infty} (y-mx)
+    \end{align}
+
+    \subsection{Asymptote of Algebraic Curves}
+    For an algebraic curve, passing through origin, defined as:
+    \begin{align}
+        & (a_0x^n + a_1 x^{n-1} y^1 + \cdots + a_{n-1} x y^{n-1} + a_n y^n )\nonumber\\
+        & + ( b_0 x^{n-1} + b_1 x^{n-2} y^1 + \cdots + b_{n-1}xy^{n-2} + b_n y^{n-1}) + \cdots = 0 \\
+        & \Rightarrow x^n \phi_n \left( \dfrac{y}{x} \right) + x^{n-1} \phi_{n-1} \left( \dfrac{y}{x} \right) + \cdots + x \phi_1 \left( \dfrac{y}{x} \right) = 0\nonumber
+    \end{align}
+    The asymptote(s) defined as $y=mx+c$,
+    \begin{enumerate}
+    \item $m$ is the solution for the equation 
+    \begin{align}
+        \phi_n(m)=0
+    \end{align}
+    \item \begin{align}
+        c=-\dfrac{\phi_{n-1}(m)}{\phi_n (m)}
+    \end{align}
+    where $c$ is a finite value.
+    \end{enumerate}
+\end{document}

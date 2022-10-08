@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.8.7)  21 AUG 2022 17:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.8.7)  8 OCT 2022 16:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -670,24 +670,24 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 ....1}Consistency Test}{16}{subsection.5.3.1}
+l.39 ....1}Consistency Test}{17}{subsection.5.3.1}
                                                   % [1
 
-] [2] [3] [4])
+] [2] [3] [4] [5])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [5] [6
+ [6] [7
 
 ] (chapters/algebra/logarithm.tex
 Chapter 1.
-) (chapters/algebra/complexnum.tex [7
+) (chapters/algebra/complexnum.tex [8
 
 ]
 Chapter 2.
-[8
+[9
 
-]) (chapters/algebra/progression.tex [9]
+]) (chapters/algebra/progression.tex [10]
 Chapter 3.
 CUTED [- LAST -]
 Extra skip:193.2472pt
@@ -706,7 +706,7 @@ Overfull \hbox (415.66025pt too wide) has occurred while \output is active
 [] []|[] []
  []
 
-[10]
+[11]
 CUTED [- LAST -]
 Extra skip:20.88686pt
 Left:162.69875pt/0.0pt
@@ -724,16 +724,16 @@ Overfull \hbox (415.66025pt too wide) has occurred while \output is active
 [] []|[] []
  []
 
-) (chapters/algebra/test_of_convergence.tex [11]
+) (chapters/algebra/test_of_convergence.tex [12]
 Chapter 4.
-[12
+[13
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{equation.4.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.34 	\end{equation}
-                    ] [13]) (chapters/algebra/determinants.tex [14]
+                    ] [14]) (chapters/algebra/determinants.tex [15]
 Chapter 5.
 CUTED [- LAST -]
 Extra skip:0.0pt
@@ -752,7 +752,7 @@ Overfull \hbox (415.66025pt too wide) has occurred while \output is active
 [] []|[] []
  []
 
-[15]) (chapters/algebra/matrices.tex [16]
+[16]) (chapters/algebra/matrices.tex [17]
 Chapter 6.
 CUTED [- LAST -]
 Extra skip:216.97224pt
@@ -775,7 +775,7 @@ Overfull \hbox (415.66025pt too wide) has occurred while \output is active
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 29.
 
-[17]) (chapters/algebra/binomial_theorem.tex [18]
+[18]) (chapters/algebra/binomial_theorem.tex [19]
 Chapter 7.
 CUTED [- LAST -]
 Extra skip:0.0pt
@@ -799,25 +799,25 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 35.
 
-) (chapters/algebra/boolean_algebra.tex [19]
+) (chapters/algebra/boolean_algebra.tex [20]
 Chapter 8.
-) (chapters/algebra/remainder_theorem.tex [20
+) (chapters/algebra/remainder_theorem.tex [21
 
 ]
 Chapter 9.
-[21
+[22
 
-] [22]) [23] [24
+] [23]) [24] [25
 
 ] (chapters/coordinate_geom/2D.tex
 Chapter 10.
-) (chapters/coordinate_geom/triangles.tex [25
+) (chapters/coordinate_geom/triangles.tex [26
 
 ]
 Chapter 11.
-[26
+[27
 
-]) (chapters/coordinate_geom/straight_line.tex [27]
+]) (chapters/coordinate_geom/straight_line.tex [28]
 Chapter 12.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -847,33 +847,33 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 30.
 
-[28
+[29
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 44.
 
-) (chapters/coordinate_geom/general_theory_2d_eqn.tex [29]
+) (chapters/coordinate_geom/general_theory_2d_eqn.tex [30]
 Chapter 13.
-) (chapters/coordinate_geom/conics.tex [30
+) (chapters/coordinate_geom/conics.tex [31
 
 ]
 Chapter 14.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[31
+[32
 
-]) (chapters/coordinate_geom/circles.tex [32]
+]) (chapters/coordinate_geom/circles.tex [33]
 Chapter 15.
-[33
+[34
 
-]) (chapters/coordinate_geom/vectors.tex [34]
+]) (chapters/coordinate_geom/vectors.tex [35]
 Chapter 16.
-[35
+[36
 
-]) (chapters/coordinate_geom/3d_space.tex [36]
+]) (chapters/coordinate_geom/3d_space.tex [37]
 Chapter 17.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -883,23 +883,23 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 12.
 
-[37
+[38
 
-]) (chapters/coordinate_geom/3d_plane.tex [38]
+]) (chapters/coordinate_geom/3d_plane.tex [39]
 Chapter 18.
-[39
+[40
 
-]) [40] [41
+]) [41] [42
 
 ] (chapters/statistics/des_stas.tex
 Chapter 19.
-[42
+[43
 
 ]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[43]) (chapters/statistics/hypothesis_testing.tex [44]
+[44]) (chapters/statistics/hypothesis_testing.tex [45]
 Chapter 20.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -917,15 +917,15 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 18.
 
-) (chapters/statistics/research_survey_design.tex [45
+) (chapters/statistics/research_survey_design.tex [46
 
 ]
 Chapter 21.
-) (chapters/statistics/regression.tex [46
+) (chapters/statistics/regression.tex [47
 
 ]
 Chapter 22.
-[47
+[48
 
 ]
 
@@ -948,19 +948,19 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 45.
 
-[48]) (chapters/statistics/dummy_var.tex [49]
+[49]) (chapters/statistics/dummy_var.tex [50]
 Chapter 23.
-[50
+[51
 
-] [51]) (chapters/statistics/logistic_regression.tex [52]
+] [52]) (chapters/statistics/logistic_regression.tex [53]
 Chapter 24.
-) [53
+) [54
 
-] [54
+] [55
 
 ] (chapters/trig/circ_trig_f.tex
 Chapter 25.
-[55
+[56
 
 ]
 
@@ -1039,7 +1039,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 65.
 
-[56]
+[57]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 81.
@@ -1080,7 +1080,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 81.
 
-[57] [58]) (chapters/trig/inv_circ_func.tex [59]
+[58] [59]) (chapters/trig/inv_circ_func.tex [60]
 Chapter 26.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1118,7 +1118,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 25.
 
-[60
+[61
 
 ]
 
@@ -1145,36 +1145,48 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 54.
 
-[61] [62]) (chapters/trig/hyp_trig.tex [63]
+[62] [63]) (chapters/trig/hyp_trig.tex [64]
 Chapter 27.
-[64
+[65
 
-]) [65] [66
+]) [66] [67
 
 ] (chapters/calculus/limits.tex
 Chapter 28.
-[67
+[68
 
-]) (chapters/calculus/differentiation.tex [68]
+]) (chapters/calculus/differentiation.tex [69]
 Chapter 29.
-[69
+[70
 
-] [70]) [71] (main.aux)
+] [71]) (chapters/calculus/successive_diff.tex [72]
+Chapter 30.
+) (chapters/calculus/partial_derivative.tex [73
+
+]
+Chapter 31.
+) (chapters/calculus/application_diff.tex [74
+
+]
+Chapter 32.
+[75
+
+] [76] [77] [78]) [79] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CAEFCAFD37879FF0B5A1E63CD751C046;31899.
+(rerunfilecheck)             Checksum: E60FF4BD102C6752CE4C0A2DF9D6242E;35866.
  ) 
 Here is how much of TeX's memory you used:
- 33143 strings out of 478337
- 780804 string characters out of 2836667
- 1185236 words of memory out of 3000000
- 50249 multiletter control sequences out of 15000+600000
+ 33274 strings out of 478337
+ 783041 string characters out of 2836667
+ 1185260 words of memory out of 3000000
+ 50279 multiletter control sequences out of 15000+600000
  479003 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,21n,103p,768b,2264s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\agnij\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (72 pages, 562715 bytes).
+ <C:\Users\agnij\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/agnij/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (80 pages, 649495 bytes).
 PDF statistics:
- 1931 PDF objects out of 2073 (max. 8388607)
- 704 named destinations out of 1000 (max. 500000)
- 1525 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2185 PDF objects out of 2487 (max. 8388607)
+ 796 named destinations out of 1000 (max. 500000)
+ 1717 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,22 @@
+\documentclass[../main.tex]{subfile}
+\begin{document}
+    \chapter{Successive Differentiation}
+    \begin{align}
+        D^n (ax + b)^m & = m(m-1)\cdots(m-n+1) a^n (ax+b)^{m-n}\\
+        D^n \left( \dfrac{1}{ax + b} \right) & = \dfrac{(-1)^n \cdot n!`\cdot' a^n}{(ax + b)^{n + 1}} \\
+        D^n \ln(ax + b) & = \dfrac{(-1)^{n-1} \cdot (n-1)! \cdot a^n}{(ax + b)^n}, n \geq 2 \\
+        D^n (a^{mx}) & = m^n (\ln a)^n \cdot a^{mx} \\
+        D^n (e^{mx})=m^n e^{mx} \\
+        D^n \sin (ax + b) & = a^n \sin(ax + b + n \frac{\pi}{2}) \\
+        D^n \cos (ax + b) & = a^n \cos(ax + b + n \frac{\pi}{2})\\
+        D^n [e^{ax} \sin(bx + c)] & = (a^2 + b^2)^{\frac{n}{2}} e^{ax} \sin(bx + c + n \arctan \frac{b}{a})\\
+        D^n [e^{ax} \cos(bx + c)] & = (a^2 + b^2)^{\frac{n}{2}} e^{ax} \cos(bx + c + n \arctan \frac{b}{a})
+    \end{align}
+        
+        \section{Leibnitz's Theorem}
+        For two functions $u$ and $v$ of $x$, the successive differentiation of their product is defined as:
+    \begin{align}
+        (uv)_n = &^nC_0 u_n v+^nC_1 u_{n-1} v_1+\cdots+^nC_0 u v_n\\
+         = & \sum_{i=0}^n {^nC_i} u_{n-i} v_i
+    \end{align}
+\end{document}

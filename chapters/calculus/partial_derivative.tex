@@ -1,0 +1,21 @@
+\documentclass[../main.tex]{subfile}
+\begin{document}
+    \chapter{Partial Derivative}
+    If $f(x,y)$ is a function of $(x,y)$, then $\dfrac{\partial f(x,y)}{\partial x}$ is the differentiation of $f(x,y)$ w.r.t. $x$, keeping all other parameters constant.
+    \section{Chain Rule}
+    If $f$ is a function of $u$ and $v$, which are functions of $x$ and $y$, then:
+    \begin{align}
+    \dfrac{\partial f}{\partial x}=\dfrac{\partial f}{\partial u}\dfrac{\partial u}{\partial x}+\dfrac{\partial f}{\partial v}\dfrac{\partial v}{\partial x}\\
+    \dfrac{\partial f}{\partial y}=\dfrac{\partial f}{\partial u}\dfrac{\partial u}{\partial y}+\dfrac{\partial f}{\partial v}\dfrac{\partial v}{\partial y}\\
+    \end{align}
+    If $f$ is a function of $x$ and $y$, which are functions of $t$, then:
+    \begin{align}
+    \dfrac{df}{dt}=\dfrac{\partial f}{\partial x}\dfrac{dx}{dt}+\dfrac{\partial f}{\partial y}\dfrac{dy}{dt}
+    \end{align}
+    
+    \section{Euler's Theorem}
+    For a homogeneous function \footnote{Homogeneous functions are defined as $f(ax,ay)=a^\kappa f(x,y)$, where $\kappa$ is the degree of homogeneity.\newline E.g. $f(x,y)=x^2+y^2$, then $f(tx,ty)=t^2(x^2+y^2$), and the degree of homogeneity is $2$.}, $f(x_i)$ of degree $n$:
+    \begin{align}
+    \sum x_i\dfrac{\partial f}{\partial x_i}=nf(x_i)
+    \end{align}
+\end{document}
