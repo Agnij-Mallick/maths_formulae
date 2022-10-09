@@ -1,0 +1,58 @@
+\documentclass[../main.tex]{subfile}
+\begin{document}
+    \chapter{Laplace Transformations}
+     The Laplace Transformation of a function $f(t)$ is defined as:
+    \begin{align}
+        F(s)=\mathcal{L} \lbrace f(t)\rbrace=\lim_{x\to\infty}\int_0^x e^{-st}f(t) dt
+    \end{align}
+    
+    \section{Basic Transformations}
+    
+    \begin{table}[!h]
+    \begin{center}
+    \caption{Table of Laplace Transformations}
+    \label{laplace}
+    \begin{tabular}{l|c}
+    $f(t)$ & F(s)\\
+    \hline
+    $af(t) + bg(t)$ & $a F(s) + b G(s)$\\
+    $ 1 $ & $ \dfrac{1}{s} $ \\
+    $ t $ & $ \dfrac{1}{s^2} $\\
+    $ t^n $ & $ \dfrac{n!}{s^{n + 1}} $\\
+    $ e^{at} $ & $ \dfrac{1}{s-a} $\\
+    $ \cos (\omega t) $ & $ \dfrac{s}{s^2 + \omega^2} $\\
+    $ \sin (\omega t) $ & $\dfrac{\omega}{s^2 + \omega^2} $\\
+    $ \sinh at $ & $ \dfrac{a}{s^2 - a^2} $\\
+    $ \cosh at $ & $ \dfrac{s}{s^2 - a^2} $\\
+    \end{tabular}
+    \end{center}
+    \end{table}
+
+    \section{Important Relations}
+    \begin{align}
+        \mathcal{L} \lbrace e^{at} f(t) \rbrace & = F(s - a)\\
+        \mathcal{L} \lbrace t f(t) \rbrace & = - F'(s)\\
+        \mathcal{L} \lbrace t^n f(t) \rbrace & = (-1)^n F^n(s)\\
+        \mathcal{L} \lbrace \dfrac{f(t)}{t} \rbrace & = \lim_{x\to\infty} \int_s^x F(u) du\\
+        \mathcal{L} \lbrace \dfrac{f(t)}{t^n} \rbrace & = \lim_{x\to\infty} \int_1\int_2\cdots{\int_s^x}_n F(u) du\cdots du
+    \end{align}
+
+    \section{Convolution}
+    For two functions $f(t)$ and $g(t)$ be given such that their Laplace transforms are $F(s)$ and $G(s)$, then:
+    \begin{align}
+        \mathcal{L}\lbrace f(t) \star g(t) \rbrace=F(s)G(s)
+    \end{align}
+    where $f(t) \star g(t)$ is defined as:
+    \begin{align}
+        \int_0^t f(u)g(t-u)du
+    \end{align}
+
+    \section{Laplace Transforms of Differentials}
+    If the Laplace Transform of $f(t)$ is $F(s)$\footnote{Used in initial value problems}:
+    \begin{align}
+        \mathcal{L} \lbrace f'(t) \rbrace & = sF(s) - y(0)\\
+        \mathcal{L} \lbrace f''(t) \rbrace & = s^2 F(s) - [s y(0) + y'(0)]\\
+        &\vdots\nonumber\\
+        \mathcal{L} \lbrace f^n(t) \rbrace & = s^n F(s) - \left[\sum_{i = 0}^{n - 1} s^{n - i} y^i(0) \right]
+    \end{align}
+\end{document}

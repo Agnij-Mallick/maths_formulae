@@ -1,0 +1,183 @@
+\documentclass[../main.tex]{subfile}
+\begin{document}
+    \chapter{Differential Equations}
+    \section{$1^\text{st}$ Order, $1^\text{st}$ Degree Differential Equation}
+        For the equation:
+        \begin{align}
+        \dfrac{dy}{dx}+P(x)y=Q(x)\label{eq1}
+        \end{align}
+
+        Then an Integral Function (I.F.) is defined as:
+        \begin{align}
+        I.F.=e^{\int P(x)dx}
+        \end{align}
+
+        Then the solution of the equation \ref{eq1} is given by:
+        \begin{align}
+        y(I.F.)=\int Q (I.F.) dx
+        \end{align}
+
+        \section{$2^\text{nd}$ Order, $1^\text{st}$ Degree Differential Equation}
+        For the equation:
+        \begin{align}
+            \dfrac{d^2 y}{dx^2} + a\dfrac{dy}{dx} + by = 0 \label{eq2}\\
+            \text{OR} \nonumber \\
+            y'' + ay' + by = 0
+        \end{align}
+
+        By substituting $y=e^{\lambda x}$, the equation obtained is:
+        \begin{align}
+            \lambda^2 e^{\lambda x} + \lambda e^{\lambda x} + b e^{\lambda x} = 0 \nonumber\\
+            e^{\lambda x} \neq 0 \nonumber\\
+            \Rightarrow \lambda^2 + a\lambda + b = 0 \label{eq3}
+        \end{align}
+
+        If $\alpha$ and $\beta$ are the solutions of the equation \ref{eq3}, then the solution of \ref{eq2} can be:
+        \begin{enumerate}
+
+        \item If $\alpha = \beta$ and $\alpha,\beta\in\mathbb{R}$:
+        \begin{align}
+            y = (c_1 + c_2 x) e^{\alpha x}
+        \end{align}
+
+        \item If $\alpha \neq \beta$ and $\alpha,\beta\in\mathbb{R}$:
+        \begin{align}
+            y = c_1 e^{\alpha x} + c_2 e^{\beta x}
+        \end{align}
+
+        \item If $\lambda = \alpha + i \beta$:
+        \begin{align}
+            y = e^{\alpha x} \left[ A \cos (\beta x) + B \sin (\beta x) \right]
+        \end{align}
+
+        \end{enumerate}
+
+        \section{Special Cases of Differential Equation}
+        \subsection{Definition of Inverse Operator}
+        The operator $D$ is equivalent to $\dfrac{d}{dx}$. If $Df(x)=X$, then $f(x)=\dfrac{1}{D}X=\int X dx$.
+
+        \subsection{Special Cases}
+        \begin{enumerate}
+        \item \begin{align}
+                    f(x) = \dfrac{1}{D-a} X = e^{ax}\int X e^{-ax} dx
+                \end{align}
+
+        \item \begin{align}
+            \dfrac{1}{f(D)} e^{ax} = \begin{cases}
+                                        \dfrac{e^{ax}}{f(a)}, f(a) \neq 0\\
+                                        x\dfrac{e^{ax}}{f'(a)}, f(x) = 0 \text{ and } f'(a)\neq 0\\
+                                        x^2\dfrac{e^{ax}}{f''(a)}, f(x) = 0 \text{ and } f'(a) = 0
+                                    \end{cases}
+        \end{align}
+
+        \item \begin{align}
+                \dfrac{1}{f(D)}x^m=[f(D)]^{-1} x^m
+              \end{align}
+        $[f(D)]^{-1}$ is expanded and arranged in terms of ascending powers of $D$ and operated on $x^m$.
+
+        \item 
+        \begin{enumerate}
+            \item
+                \begin{align}
+                    \dfrac{1}{f(D)} \sin (ax) & = \dfrac{1}{\phi(D^2)} \sin (ax) \nonumber \\
+                    & = \dfrac{1}{\phi(-a^2)} \sin (ax)
+                \end{align}
+
+            \item
+                \begin{align}
+                    \dfrac{1}{f(D)} \cos (ax) & = \dfrac{1}{\phi(D^2)} \cos (ax) \nonumber \\
+                    & = \dfrac{1}{\phi(-a^2)} \cos (ax)
+                \end{align}
+        \end{enumerate}
+
+        \item \begin{enumerate}
+        \item \begin{align} 
+                \dfrac{1}{f(D)} \sin (ax) & = \dfrac{1}{\phi(D^2,D)} \sin (ax) \nonumber \\
+                & = \dfrac{1}{\phi(-a^2,D)} \sin (ax) 
+              \end{align}
+
+        \item \begin{align}
+                 \dfrac{1}{f(D)} \cos (ax) & = \dfrac{1}{\phi(D^2,D)} \cos (ax) \nonumber \\
+                 & = \dfrac{1}{\phi(-a^2,D)} \cos (ax) 
+              \end{align}
+        \end{enumerate}
+
+        \item \begin{enumerate}
+        \item \begin{align}
+                 \dfrac{1}{f(D)} \sin (ax) & = \dfrac{\psi(D)}{\phi(D^2)} \sin (ax) \nonumber \\
+                 & = \dfrac{\psi(D)}{\phi(-a^2)} \sin (ax)
+              \end{align}
+
+        \item \begin{align}
+                \dfrac{1}{f(D)} \cos (ax) & = \dfrac{\psi(D)}{\phi(D^2)} \cos (ax) \\
+                & = \dfrac{\psi(D)}{\phi(-a^2)} \cos (ax)
+              \end{align}
+        \end{enumerate}
+
+        \item \begin{enumerate}
+        \item \begin{align}
+                 \dfrac{1}{f(D)} \sin (ax) = x\dfrac{1}{f'(D)} \sin (ax)
+              \end{align}
+
+        \item \begin{align}
+                 \dfrac{1}{f(D)} \cos (ax) = x\dfrac{1}{f'(D)} \cos (ax)
+              \end{align}
+        \end{enumerate}
+        \end{enumerate}
+
+        \section{Method of Variation of Parameters}
+        If the equation is of the form:
+        
+        \begin{align}
+            \dfrac{d^2y}{dx^2} + a \dfrac{dy}{dx} + b y = f \label{eq4}
+        \end{align}
+        
+        where $a,b,f$ are functions of $x$. The solution for \ref{eq4} is obtained by solving for:
+        
+        \begin{align} \label{eq5}
+            \dfrac{d^2y}{dx^2} + a\dfrac{dy}{dx} + b y = 0
+        \end{align}
+        
+        If $y_1$ and $y_2$ are the two independent solution of equation \ref{eq5}.\newline
+        Then the general solution of the equation is:
+        \begin{align}
+            y = c_1 y_1 + c_2 y_2
+        \end{align}
+        where $c_1$ and $c_2$ are the constants.\newline
+        
+        The particular solution of equation \ref{eq5} will be:
+        \begin{align}
+            y = y_1 \left( \int \dfrac{y_2(-f)}{W} dx \right) + y_2 \left( \int \dfrac{y_1 f}{W} dx \right)
+        \end{align}
+        
+        $W$ is the Wronskian, which is defined by:
+        \begin{align}
+        W = \begin{vmatrix}
+                y_1 & y_2\\
+                y_1' & y_2'
+            \end{vmatrix}
+        \end{align}
+
+        \section{Singular and Ordinary Point}
+        For a differential equation:
+        \begin{align}
+            P_0 \dfrac{d^n y}{dx^n}+P_1 \dfrac{d^{n-1}y}{dx^{n-1}}+\cdots+P_{n-1} \dfrac{dy}{dx}+P_n y=R(x)
+        \end{align}
+        where $P_0 \cdots P_n$ are functions of $x$.\newline
+
+        If at a point $x=x_0$:
+        \begin{enumerate}
+        \item $P_0(x_0) \neq 0$, $x_0$ is an ordinary point.
+
+        \item $P_0(x_0)=0$, $x_0$ is an singular point: \begin{enumerate}
+
+        \item \begin{align}
+                \lim_{x \to x_0}(x - x_0) P_1(x) = c_1\\
+                \lim_{x \to x_0}(x - x_0)^2 P_2(x) = c_2\\
+        \end{align}
+        where $c_1$ and $c_2$ are both finite quantities $x_0$ is a regular singular point.
+
+        \item otherwise it is an irregular singular point.
+        \end{enumerate}
+        \end{enumerate}
+\end{document}
