@@ -1,0 +1,29 @@
+\documentclass[../main.tex]{subfile}
+\begin{document}
+\chapter{Definite Integration}
+
+For a function $f(x)$ for which $\int f(x) dx=F(x)+A$,
+\begin{align}
+    \int_{a}^{b} f(x) dx=F(b)-F(a)
+\end{align}
+
+\section{Properties of Definite Integration}
+\begin{align}
+    \int_{a}^{b} f(x) dx & = \int_{a}^{b} f(t) dt\\
+    \int_{a}^{b} f(x) dx & = -\int_{b}^{a} f(x) dx\\
+    \int_{a}^{b} f(x) dx & = \int_{a}^{c} f(x) dx+\int_{c}^{b} f(x) dx\\
+    \int_{a}^{b} f(x) dx & = \int_{a}^{b} f(a+b-x) dx\\
+    \int_{0}^{a} f(x) dx & = \int_{0}^{a} f(a-x) dx\\
+    \int_{0}^{2a} f(x) dx & = \begin{cases} 2\int_{0}^{a} f(x) dx,\text{ }f(2a-x)=f(x)\\0,\text{ }f(2a-x)=f-(x)\end{cases}\\
+    \int_{-a}^{a} f(x) dx & = \begin{cases} 2\int_{0}^{a} f(x) dx,\text{ }f(x)\text{ is even}\\0,\text{ }f(x)\text{ is odd}\end{cases}
+\end{align}
+
+\section{Approximation}
+\begin{align}
+    f(a) (b-a) \leq \int_a^b f(x) dx \leq f(b) (b-a)
+\end{align}
+
+\section{Sum of Infinite Series as a Definite Integral}
+Refer to \ref{riemannsum}.
+
+\end{document}

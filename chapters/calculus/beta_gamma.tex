@@ -1,0 +1,25 @@
+\documentclass[../main.tex]{subfile}
+\begin{document}
+    \chapter{$\beta$ and $\Gamma$ Functions}
+    For $m,n>0$: 
+    \begin{align}
+        \beta(m,n) & = \int_0^1 x^{m-1} (1-x)^{n-1} dx&\\
+        & = 2 \int_0^{\frac{\pi}{2}} \sin^{2m-1} x \cos^{2n-1} x dx
+        \Gamma(n) & = \int_0^\infty e^{-1}x^{n-1} dx
+    \end{align}
+
+\section{Important Relations between $\beta(m,n)$ and $\Gamma(n)$ Functions}
+
+\begin{align}
+    \Gamma(n) & = \dfrac{\Gamma(n + 1)}{n}\\
+    \Gamma(1) & = 1\\
+    \Gamma \left( \dfrac{1}{2} \right) & = \sqrt{\pi} \approx 1.772\\
+    \Gamma(n + 1) & = n! , n \in \mathbb{N}\\
+    \Gamma(m) \Gamma \left( m + \frac{1}{2} \right) & = \sqrt{\pi} \Gamma(2m) \\
+    \Gamma(m) \Gamma(m - 1) & = \pi \csc( m \pi)\\
+    \beta(m, n) & = \beta(n, m)\\
+    \beta(m, n) & = \dfrac{ \Gamma(m) \Gamma(n) }{ \Gamma(m + n) }\\
+    \beta \left(\dfrac{1}{2},\dfrac{1}{2}\right) & = \pi\\
+    \int_0^{\frac{\pi}{2}} \sin^p x \cos^q x & = \dfrac{1}{2} \dfrac{ \Gamma \left( \dfrac{p + 1}{2} \right) \Gamma \left( \dfrac{q + 1}{2} \right)}{ \Gamma \left( \dfrac{p+2}{2} \right) }\\
+\end{align}
+\end{document}

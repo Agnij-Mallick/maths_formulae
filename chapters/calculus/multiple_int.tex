@@ -1,0 +1,57 @@
+\documentclass[../main.tex]{subfile}
+\begin{document}
+\chapter{Multiple Integrals}
+\section{Two Variables}
+For
+\begin{align}
+    I = \iint_R f(x,y) dxdy
+\end{align}
+
+The following substitution are made:
+\begin{align}
+    x = g(r,\theta)\\
+    y = h(r,\theta)\\
+    \Rightarrow dx dy = \lvert J \rvert dr d\theta
+\end{align}
+
+Where $J$ is the Jacobian, defined as:
+\begin{align}
+    J = \begin{vmatrix}
+            \dfrac{\partial x}{\partial r} & \dfrac{\partial y}{\partial r}\\
+            \dfrac{\partial x}{\partial \theta} & \dfrac{\partial y}{\partial \theta}
+        \end{vmatrix}
+\end{align}
+
+The equivalent integral is:
+\begin{align}
+    I=\iint_{R_1} f(g(r,\theta),h(r,\theta))\lvert J \rvert drd\theta
+\end{align}
+
+\section{Three Variables}
+For
+\begin{align}
+    I=\iiint_R f(x,y,z) dxdydz
+\end{align}
+The following substitution are made:
+\begin{align}
+    x = g(r,\theta,\phi)\\
+    y = h(r,\theta,\phi)\\
+    z = k(r,\theta,\phi)
+    dx dy dz = \lvert J \rvert dr d\theta d\phi
+\end{align}
+
+Where $J$ is the Jacobian, defined as:
+\begin{align}
+    J = \begin{vmatrix}
+            \dfrac{\partial x}{\partial r}&\dfrac{\partial y}{\partial r}&\dfrac{\partial z}{\partial r}\\
+            \dfrac{\partial x}{\partial \theta}&\dfrac{\partial y}{\partial \theta}&\dfrac{\partial z}{\partial \theta}\\
+            \dfrac{\partial x}{\partial \phi}&\dfrac{\partial y}{\partial \phi}&\dfrac{\partial z}{\partial \phi}
+        \end{vmatrix}
+\end{align}
+
+The equivalent integral is:
+\begin{align}
+    I=\iiint_{R_1} f(g(r,\theta,\phi),h(r,\theta,\phi),k(r,\theta,\phi))\lvert J \rvert dr d\theta d\phi
+\end{align}
+
+\end{document}

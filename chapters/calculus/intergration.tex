@@ -1,0 +1,68 @@
+\documentclass[../main.tex]{subfile}
+\begin{document}
+\chapter{Integration}
+\section{General Formulae}
+% \footnote{A is a constant $\in \mathbb{R}$}
+\begin{align}
+    \int nx^{n-1} dx = x^n + A\\
+    \int x^n dx = \dfrac{1}{n + 1}x^{n + 1} + A\\
+    \int e^x dx = e^x+A\\
+    \int \dfrac{1}{x} dx = \ln x + A\\
+    \int \ln x dx = x(\ln x - 1) + A
+\end{align}
+
+\section{Circular Trigonometric Functions}
+\begin{align}
+    \int \sin x dx & = -\cos x + A\\
+    \int \cos x dx & = \sin x + A\\
+    \int \sec^2 x dx & = \tan x + A\\
+    \int \csc^2 x dx & = -\cot x + A\\
+    \int \sec x \tan x dx & = \sec x + A\\
+    \int \csc x \cot x dx & = -\csc x + A\\
+    \int \sec x dx & = \ln (\sec x + \tan x) + A\\
+    \int \csc x dx & = -\ln (\csc x + \cot x)+A\\
+    \int \tan x dx & = -\ln (\cos x) + A \\
+                   & = \ln(\sec x) + A\\
+    \int \cot x dx & = \ln (\sin x) + A
+\end{align}
+
+\section{Inverse Circular Trigonometric Function}
+\begin{align}
+    \int \dfrac{1}{\sqrt{1 - x^2}} dx & = \sin^{-1} x + A\\
+    \int \dfrac{-1}{\sqrt{1 - x^2}} dx & = \cos^{-1} x + A\\
+    \int \dfrac{1}{1 + x^2} dx & = \tan^{-1} x + A\\
+    \int \dfrac{-1}{1 + x^2} dx & = \cot^{-1} x + A = - \tan^{-1} x + A\\
+    \int \dfrac{1}{x\sqrt{x^2 - 1}} dx & = \sec^{-1} x + A = -\csc^{-1} x + A\\
+    \int \dfrac{-1}{x\sqrt{x^2 - 1}} dx & = \csc^{-1} x + A = -\sec^{-1} x + A
+\end{align}
+
+\section{Standard Integrals}
+\begin{align}
+    \int \dfrac{dx}{\sqrt{a^2 - x^2}} & = \sin^{-1} \dfrac{x}{a} + A\\
+    \int \dfrac{dx}{\sqrt{x^2 + a^2}} & = \ln (x + \sqrt{x^2 + a^2}) + A\\
+    \int \dfrac{dx}{a^2 + x^2} & = \dfrac{1}{a} \tan^{-1} \dfrac{x}{a} + A\\
+    \int \dfrac{dx}{\sqrt{x^2 - a^2}} & = \ln (x + \sqrt{x^2-a^2}) + A\\
+    \int \dfrac{dx}{x \sqrt{x^2 - a^2}} & = \dfrac{1}{a} \sec^{-1} \dfrac{x}{a} + A\\
+    \int \sqrt{a^2 - x^2} dx & = \dfrac{x\sqrt{a^2 - x^2}}{2} + \dfrac{a^2}{2} \sin^{-1} \dfrac{x}{a} + A\\
+    \int \sqrt{a^2 + x^2} dx & = \dfrac{x\sqrt{a^2 + x^2}}{2} + \dfrac{a^2}{2} \ln (x + \sqrt{x^2 + a^2}) + A\\
+    \int \sqrt{x^2 - a^2} dx & = \dfrac{x\sqrt{x^2 - a^2}}{2} - \dfrac{a^2}{2} \ln (x + \sqrt{a^2 - x^2}) + A\\
+    \int \dfrac{dx}{x^2 - a^2} & = \dfrac{1}{2a} \ln \lvert \dfrac{x - a}{x + a} \rvert + A\\
+    \int \dfrac{dx}{a^2 - x^2} & = \dfrac{1}{2a} \ln \lvert \dfrac{a + x}{a - x} \rvert + A
+\end{align}
+\footnote{$a$ is a constant $\in\mathbb{R}$}
+
+\section{Special Forms}
+For a function $f(x)$:
+\begin{align}
+\int [f(x)]^n f'(x) dx =
+    \begin{cases}
+        \dfrac{[f(x)]^{n + 1}}{n + 1} + A, n \neq 1\\
+        \ln \lvert f(x) \rvert + A, n=1
+    \end{cases}
+\end{align}
+\subsection{Integration by Part}
+For two functions $u(x)$ and $v(x)$:
+\begin{align}
+    \int u(x) v(x) dx = u(x) \left[ \int v(x) dx \right] - \int \left[ \dfrac{du(x)}{dx} \left( \int v(x) dx \right) dx \right]
+\end{align}
+\end{document}
