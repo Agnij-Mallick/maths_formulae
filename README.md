@@ -14,8 +14,6 @@ I am making the code of this book open-source so that the greater mathematical c
 
 In the subsequent sections I will describe the LaTeX code and the organisation of the files within this project. If you only want access to the book, I would suggest downloading the *main.pdf* file.
 
-**The book is currently being transitioned from a monolithic file into smaller, readable subfiles. If you see this message please download the *original.pdf* file in the directory *_v1* to access the full book.**
-
 ## Page Size and Border
 The page size and borders have been optimised for an Amazon Kindle 6" screen. Through multiple trials, I have found the B5 paper to be the best fit for the Kindle Screen. The document options *openany* and *oneside* have been used to make this book better suited for digital use.
 
